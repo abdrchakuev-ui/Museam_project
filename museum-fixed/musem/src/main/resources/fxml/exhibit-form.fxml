@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="kz.enu.museum.controller.ExhibitFormController"
+      spacing="15" style="-fx-padding: 20;">
+    
+    <Label text="Добавить/Редактировать экспонат" styleClass="card-header"/>
+    
+    <!-- Тип экспоната -->
+    <VBox spacing="5">
+        <Label text="Тип экспоната:" style="-fx-font-weight: bold;"/>
+        <HBox spacing="15">
+            <RadioButton fx:id="paintingRadio" text="Картина" selected="true">
+                <toggleGroup><ToggleGroup fx:id="typeGroup"/></toggleGroup>
+            </RadioButton>
+            <RadioButton fx:id="sculptureRadio" text="Скульптура" toggleGroup="$typeGroup"/>
+            <RadioButton fx:id="artifactRadio" text="Артефакт" toggleGroup="$typeGroup"/>
+        </HBox>
+    </VBox>
+    
+    <Separator/>
+    
+    <!-- Общие поля -->
+    <GridPane hgap="15" vgap="12">
+        <columnConstraints>
+            <ColumnConstraints percentWidth="30" minWidth="120"/>
+            <ColumnConstraints percentWidth="70" hgrow="ALWAYS"/>
+        </columnConstraints>
+        
+        <Label text="Название:*" GridPane.rowIndex="0"/>
+        <TextField fx:id="nameField" promptText="Введите название экспоната" 
+                   GridPane.rowIndex="0" GridPane.columnIndex="1"/>
+        
+        <Label text="Инвентарный №:" GridPane.rowIndex="1"/>
+        <TextField fx:id="inventoryField" promptText="Автоматически" editable="false"
+                   GridPane.rowIndex="1" GridPane.columnIndex="1"/>
+        
+        <Label text="Описание:" GridPane.rowIndex="2"/>
+        <TextArea fx:id="descriptionArea" promptText="Введите описание экспоната" 
+                  prefRowCount="3" GridPane.rowIndex="2" GridPane.columnIndex="1"/>
+        
+        <Label text="Категория:*" GridPane.rowIndex="3"/>
+        <ComboBox fx:id="categoryCombo" promptText="Выберите категорию" 
+                  GridPane.rowIndex="3" GridPane.columnIndex="1" maxWidth="Infinity"/>
+        
+        <Label text="Год создания:" GridPane.rowIndex="4"/>
+        <TextField fx:id="yearField" promptText="Например: 1850" 
+                   GridPane.rowIndex="4" GridPane.columnIndex="1"/>
+        
+        <Label text="Статус:*" GridPane.rowIndex="5"/>
+        <ComboBox fx:id="statusCombo" GridPane.rowIndex="5" GridPane.columnIndex="1" maxWidth="Infinity"/>
+        
+        <Label text="Зал:" GridPane.rowIndex="6"/>
+        <ComboBox fx:id="locationCombo" promptText="Выберите зал" 
+                  GridPane.rowIndex="6" GridPane.columnIndex="1" maxWidth="Infinity"/>
+    </GridPane>
+    
+    <Separator/>
+    
+    <!-- Специфичные поля для картины -->
+    <VBox fx:id="paintingFields" spacing="12">
+        <Label text="Параметры картины:" style="-fx-font-weight: bold;"/>
+        <GridPane hgap="15" vgap="12">
+            <columnConstraints>
+                <ColumnConstraints percentWidth="30" minWidth="120"/>
+                <ColumnConstraints percentWidth="70" hgrow="ALWAYS"/>
+            </columnConstraints>
+            
+            <Label text="Художник:*" GridPane.rowIndex="0"/>
+            <ComboBox fx:id="artistCombo" promptText="Выберите художника" 
+                      GridPane.rowIndex="0" GridPane.columnIndex="1" maxWidth="Infinity"/>
+            
+            <Label text="Техника:" GridPane.rowIndex="1"/>
+            <TextField fx:id="techniqueField" promptText="Например: масло, акварель" 
+                       GridPane.rowIndex="1" GridPane.columnIndex="1"/>
+            
+            <Label text="Размеры (ШxВ см):" GridPane.rowIndex="2"/>
+            <HBox spacing="10" GridPane.rowIndex="2" GridPane.columnIndex="1">
+                <TextField fx:id="widthField" promptText="Ширина" HBox.hgrow="ALWAYS"/>
+                <Label text="x"/>
+                <TextField fx:id="heightField" promptText="Высота" HBox.hgrow="ALWAYS"/>
+            </HBox>
+        </GridPane>
+    </VBox>
+    
+    <!-- Специфичные поля для скульптуры -->
+    <VBox fx:id="sculptureFields" spacing="12" visible="false" managed="false">
+        <Label text="Параметры скульптуры:" style="-fx-font-weight: bold;"/>
+        <GridPane hgap="15" vgap="12">
+            <columnConstraints>
+                <ColumnConstraints percentWidth="30" minWidth="120"/>
+                <ColumnConstraints percentWidth="70" hgrow="ALWAYS"/>
+            </columnConstraints>
+            
+            <Label text="Скульптор:*" GridPane.rowIndex="0"/>
+            <ComboBox fx:id="sculptorCombo" promptText="Выберите скульптора" 
+                      GridPane.rowIndex="0" GridPane.columnIndex="1" maxWidth="Infinity"/>
+            
+            <Label text="Материал:" GridPane.rowIndex="1"/>
+            <TextField fx:id="materialField" promptText="Например: мрамор, бронза" 
+                       GridPane.rowIndex="1" GridPane.columnIndex="1"/>
+            
+            <Label text="Высота (см):" GridPane.rowIndex="2"/>
+            <TextField fx:id="sculptureHeightField" promptText="Высота в см" 
+                       GridPane.rowIndex="2" GridPane.columnIndex="1"/>
+            
+            <Label text="Вес (кг):" GridPane.rowIndex="3"/>
+            <TextField fx:id="weightField" promptText="Вес в кг" 
+                       GridPane.rowIndex="3" GridPane.columnIndex="1"/>
+        </GridPane>
+    </VBox>
+    
+    <!-- Специфичные поля для артефакта -->
+    <VBox fx:id="artifactFields" spacing="12" visible="false" managed="false">
+        <Label text="Параметры артефакта:" style="-fx-font-weight: bold;"/>
+        <GridPane hgap="15" vgap="12">
+            <columnConstraints>
+                <ColumnConstraints percentWidth="30" minWidth="120"/>
+                <ColumnConstraints percentWidth="70" hgrow="ALWAYS"/>
+            </columnConstraints>
+            
+            <Label text="Происхождение:" GridPane.rowIndex="0"/>
+            <TextField fx:id="originField" promptText="Страна/регион происхождения" 
+                       GridPane.rowIndex="0" GridPane.columnIndex="1"/>
+            
+            <Label text="Культура:" GridPane.rowIndex="1"/>
+            <TextField fx:id="cultureField" promptText="Например: Древний Египет" 
+                       GridPane.rowIndex="1" GridPane.columnIndex="1"/>
+            
+            <Label text="Период:" GridPane.rowIndex="2"/>
+            <TextField fx:id="periodField" promptText="Например: III век до н.э." 
+                       GridPane.rowIndex="2" GridPane.columnIndex="1"/>
+            
+            <Label text="Материал:" GridPane.rowIndex="3"/>
+            <TextField fx:id="artifactMaterialField" promptText="Из чего изготовлен" 
+                       GridPane.rowIndex="3" GridPane.columnIndex="1"/>
+        </GridPane>
+    </VBox>
+    
+    <Separator/>
+    
+    <!-- Кнопки -->
+    <HBox spacing="10" alignment="CENTER_RIGHT">
+        <Label text="* - обязательные поля" styleClass="label-caption" HBox.hgrow="ALWAYS"/>
+        <Button text="Сохранить" onAction="#handleSave" styleClass="button-success" defaultButton="true"/>
+        <Button text="Отмена" onAction="#handleCancel" styleClass="button-outlined" cancelButton="true"/>
+    </HBox>
+</VBox>

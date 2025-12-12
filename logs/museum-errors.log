@@ -1,0 +1,53 @@
+2025-12-04 22:22:46 [JavaFX Application Thread] ERROR kz.enu.museum.controller.MainController
+Image object reported error for URL: https://upload.wikimedia.org/wikipedia/commons/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg, exception=java.io.IOException: java.lang.OutOfMemoryError: Java heap space
+
+2025-12-04 22:37:41 [JavaFX-Launcher] ERROR kz.enu.museum.Main
+Ошибка при инициализации приложения
+kz.enu.museum.exception.DataLoadException: Не удалось инициализировать H2: No suitable driver found for jdbc:h2:./data/museum-db;AUTO_SERVER=TRUE
+	at kz.enu.museum.util.H2DataManager.<init>(H2DataManager.java:35)
+	at kz.enu.museum.Main.init(Main.java:56)
+	at javafx.graphics/com.sun.javafx.application.LauncherImpl.launchApplication1(LauncherImpl.java:823)
+	at javafx.graphics/com.sun.javafx.application.LauncherImpl.lambda$launchApplication$0(LauncherImpl.java:202)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+Caused by: java.sql.SQLException: No suitable driver found for jdbc:h2:./data/museum-db;AUTO_SERVER=TRUE
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:638)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:199)
+	at kz.enu.museum.util.H2DataManager.getConnection(H2DataManager.java:40)
+	at kz.enu.museum.util.H2DataManager.initDatabase(H2DataManager.java:44)
+	at kz.enu.museum.util.H2DataManager.<init>(H2DataManager.java:32)
+	... 4 more
+
+2025-12-04 22:38:44 [JavaFX-Launcher] ERROR kz.enu.museum.Main
+Ошибка при инициализации приложения
+kz.enu.museum.exception.DataLoadException: H2 JDBC driver not found on classpath. Make sure H2 dependency is added and project dependencies are resolved (run 'mvn clean package' or refresh IDE Maven).
+	at kz.enu.museum.util.H2DataManager.<init>(H2DataManager.java:35)
+	at kz.enu.museum.Main.init(Main.java:56)
+	at javafx.graphics/com.sun.javafx.application.LauncherImpl.launchApplication1(LauncherImpl.java:823)
+	at javafx.graphics/com.sun.javafx.application.LauncherImpl.lambda$launchApplication$0(LauncherImpl.java:202)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+Caused by: java.lang.ClassNotFoundException: org.h2.Driver
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:580)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:467)
+	at java.base/java.lang.Class.forName(Class.java:458)
+	at kz.enu.museum.util.H2DataManager.<init>(H2DataManager.java:33)
+	... 4 more
+
+2025-12-04 22:39:23 [JavaFX-Launcher] ERROR kz.enu.museum.Main
+Ошибка при инициализации приложения
+kz.enu.museum.exception.DataLoadException: H2 JDBC driver not found on classpath. Make sure H2 dependency is added and project dependencies are resolved (run 'mvn clean package' or refresh IDE Maven).
+	at kz.enu.museum.util.H2DataManager.<init>(H2DataManager.java:35)
+	at kz.enu.museum.Main.init(Main.java:56)
+	at javafx.graphics/com.sun.javafx.application.LauncherImpl.launchApplication1(LauncherImpl.java:823)
+	at javafx.graphics/com.sun.javafx.application.LauncherImpl.lambda$launchApplication$0(LauncherImpl.java:202)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+Caused by: java.lang.ClassNotFoundException: org.h2.Driver
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:580)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:467)
+	at java.base/java.lang.Class.forName(Class.java:458)
+	at kz.enu.museum.util.H2DataManager.<init>(H2DataManager.java:33)
+	... 4 more
+

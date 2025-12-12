@@ -1,0 +1,950 @@
+[
+  {
+    "type": "Painting",
+    "id": 1,
+    "name": "Звёздная ночь",
+    "description": "Одна из самых известных картин Ван Гога, написанная в Сен-Реми-де-Прованс",
+    "creationDate": "1889-06-18",
+    "acquisitionDate": "2020-01-15",
+    "inventoryNumber": "МУЗ-ПЛ-2020-001",
+    "status": "ON_DISPLAY",
+    "author": {
+      "id": 4,
+      "fullName": "Винсент ван Гог",
+      "birthYear": 1853,
+      "deathYear": 1890,
+      "country": "Нидерланды",
+      "biography": "Нидерландский постимпрессионист"
+    },
+    "category": {
+      "id": 1,
+      "name": "Живопись",
+      "description": "Картины и произведения живописи",
+      "categoryCode": "ПЛ",
+      "subcategories": []
+    },
+    "location": {
+      "id": 1,
+      "hallName": "Зал импрессионизма",
+      "displayNumber": "1",
+      "capacity": 50,
+      "currentCount": 1
+    },
+    "estimatedValue": 999999999,
+    "imagePath": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg",
+    "technique": "масло",
+    "width": 74,
+    "height": 92,
+    "hasFrame": true
+  },
+  {
+    "type": "Painting",
+    "id": 2,
+    "name": "Водяные лилии",
+    "description": "Серия картин Клода Моне, изображающая сад в Живерни",
+    "creationDate": "1906-06-01",
+    "acquisitionDate": "2019-05-20",
+    "inventoryNumber": "МУЗ-ПЛ-2019-001",
+    "status": "ON_DISPLAY",
+    "author": {
+      "id": 3,
+      "fullName": "Клод Моне",
+      "birthYear": 1840,
+      "deathYear": 1926,
+      "country": "Франция",
+      "biography": "Французский импрессионист"
+    },
+    "category": {
+      "id": 1,
+      "name": "Живопись",
+      "description": "Картины и произведения живописи",
+      "categoryCode": "ПЛ",
+      "subcategories": []
+    },
+    "location": {
+      "id": 1,
+      "hallName": "Зал импрессионизма",
+      "displayNumber": "2",
+      "capacity": 50,
+      "currentCount": 2
+    },
+    "estimatedValue": 50000000,
+    "imagePath": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Claude_Monet_-_Water_Lilies_-_1906%2C_Ryerson.jpg",
+    "technique": "масло",
+    "width": 180,
+    "height": 100,
+    "hasFrame": true
+  },
+  {
+    "type": "Painting",
+    "id": 3,
+    "name": "Герника",
+    "description": "Антивоенная картина Пикассо, посвящённая бомбардировке города Герника",
+    "creationDate": "1937-05-01",
+    "acquisitionDate": "2018-08-10",
+    "inventoryNumber": "МУЗ-ПЛ-2018-001",
+    "status": "IN_STORAGE",
+    "author": {
+      "id": 2,
+      "fullName": "Пабло Пикассо",
+      "birthYear": 1881,
+      "deathYear": 1973,
+      "country": "Испания",
+      "biography": "Испанский модернист"
+    },
+    "category": {
+      "id": 1,
+      "name": "Живопись",
+      "description": "Картины и произведения живописи",
+      "categoryCode": "ПЛ",
+      "subcategories": []
+    },
+    "location": {
+      "id": 2,
+      "hallName": "Хранилище",
+      "displayNumber": "S-1",
+      "capacity": 100,
+      "currentCount": 45
+    },
+    "estimatedValue": 200000000,
+    "imagePath": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Mural_del_Gernika.jpg",
+    "technique": "масло",
+    "width": 349,
+    "height": 276,
+    "hasFrame": false
+  },
+  {
+    "type": "Painting",
+    "id": 4,
+    "name": "Мона Лиза",
+    "description": "Знаменитый портрет работы Леонардо да Винчи, также известный как Джоконда",
+    "creationDate": "1503-10-01",
+    "acquisitionDate": "2015-03-15",
+    "inventoryNumber": "МУЗ-ПЛ-2015-001",
+    "status": "ON_DISPLAY",
+    "author": {
+      "id": 1,
+      "fullName": "Леонардо да Винчи",
+      "birthYear": 1452,
+      "deathYear": 1519,
+      "country": "Италия",
+      "biography": "Итальянский гений Возрождения"
+    },
+    "category": {
+      "id": 1,
+      "name": "Живопись",
+      "description": "Картины и произведения живописи",
+      "categoryCode": "ПЛ",
+      "subcategories": []
+    },
+    "location": {
+      "id": 3,
+      "hallName": "Зал Возрождения",
+      "displayNumber": "1",
+      "capacity": 40,
+      "currentCount": 1
+    },
+    "estimatedValue": 850000000,
+    "imagePath": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg",
+    "technique": "масло",
+    "width": 53,
+    "height": 77,
+    "hasFrame": true
+  },
+  {
+    "type": "Painting",
+    "id": 5,
+    "name": "Подсолнухи",
+    "description": "Серия натюрмортов Ван Гога с изображением подсолнухов",
+    "creationDate": "1888-08-01",
+    "acquisitionDate": "2022-04-10",
+    "inventoryNumber": "МУЗ-ПЛ-2022-001",
+    "status": "ON_RESTORATION",
+    "author": {
+      "id": 4,
+      "fullName": "Винсент ван Гог",
+      "birthYear": 1853,
+      "deathYear": 1890,
+      "country": "Нидерланды",
+      "biography": "Нидерландский постимпрессионист"
+    },
+    "category": {
+      "id": 1,
+      "name": "Живопись",
+      "description": "Картины и произведения живописи",
+      "categoryCode": "ПЛ",
+      "subcategories": []
+    },
+    "location": {
+      "id": 4,
+      "hallName": "Реставрационная мастерская",
+      "displayNumber": "R-1",
+      "capacity": 20,
+      "currentCount": 5
+    },
+    "estimatedValue": 40000000,
+    "imagePath": "https://upload.wikimedia.org/wikipedia/commons/4/46/Vincent_Willem_van_Gogh_127.jpg",
+    "technique": "масло",
+    "width": 73,
+    "height": 92,
+    "hasFrame": true
+  },
+  {
+    "type": "Painting",
+    "id": 6,
+    "name": "Ночной дозор",
+    "description": "Групповой портрет стрелковой роты капитана Франса Баннинга Кока",
+    "creationDate": "1642-01-01",
+    "acquisitionDate": "2017-09-20",
+    "inventoryNumber": "МУЗ-ПЛ-2017-001",
+    "status": "ON_DISPLAY",
+    "author": {
+      "id": 6,
+      "fullName": "Рембрандт ван Рейн",
+      "birthYear": 1606,
+      "deathYear": 1669,
+      "country": "Нидерланды",
+      "biography": "Голландский мастер светотени"
+    },
+    "category": {
+      "id": 1,
+      "name": "Живопись",
+      "description": "Картины и произведения живописи",
+      "categoryCode": "ПЛ",
+      "subcategories": []
+    },
+    "location": {
+      "id": 5,
+      "hallName": "Зал голландской живописи",
+      "displayNumber": "1",
+      "capacity": 35,
+      "currentCount": 1
+    },
+    "estimatedValue": 500000000,
+    "imagePath": "https://upload.wikimedia.org/wikipedia/commons/5/5a/The_Night_Watch_-_HD.jpg",
+    "technique": "масло",
+    "width": 379,
+    "height": 437,
+    "hasFrame": true
+  },
+  {
+    "type": "Painting",
+    "id": 7,
+    "name": "Постоянство памяти",
+    "description": "Сюрреалистическая картина с расплавленными часами",
+    "creationDate": "1931-01-01",
+    "acquisitionDate": "2021-06-15",
+    "inventoryNumber": "МУЗ-ПЛ-2021-001",
+    "status": "ON_DISPLAY",
+    "author": {
+      "id": 7,
+      "fullName": "Сальвадор Дали",
+      "birthYear": 1904,
+      "deathYear": 1989,
+      "country": "Испания",
+      "biography": "Испанский сюрреалист"
+    },
+    "category": {
+      "id": 1,
+      "name": "Живопись",
+      "description": "Картины и произведения живописи",
+      "categoryCode": "ПЛ",
+      "subcategories": []
+    },
+    "location": {
+      "id": 6,
+      "hallName": "Зал современного искусства",
+      "displayNumber": "1",
+      "capacity": 30,
+      "currentCount": 1
+    },
+    "estimatedValue": 25000000,
+    "imagePath": "будет позже",
+    "technique": "масло",
+    "width": 33,
+    "height": 24,
+    "hasFrame": true
+  },
+  {
+    "type": "Painting",
+    "id": 8,
+    "name": "Девятый вал",
+    "description": "Морской пейзаж, шедевр морской живописи Айвазовского",
+    "creationDate": "1850-01-01",
+    "acquisitionDate": "2019-11-30",
+    "inventoryNumber": "МУЗ-ПЛ-2019-002",
+    "status": "ON_DISPLAY",
+    "author": {
+      "id": 10,
+      "fullName": "Иван Айвазовский",
+      "birthYear": 1817,
+      "deathYear": 1900,
+      "country": "Россия",
+      "biography": "Русский художник-маринист"
+    },
+    "category": {
+      "id": 1,
+      "name": "Живопись",
+      "description": "Картины и произведения живописи",
+      "categoryCode": "ПЛ",
+      "subcategories": []
+    },
+    "location": {
+      "id": 7,
+      "hallName": "Зал русского искусства",
+      "displayNumber": "1",
+      "capacity": 40,
+      "currentCount": 1
+    },
+    "estimatedValue": 30000000,
+    "imagePath": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Hovhannes_Aivazovsky_-_The_Ninth_Wave_-_Google_Art_Project.jpg",
+    "technique": "масло",
+    "width": 221,
+    "height": 332,
+    "hasFrame": true
+  },
+  {
+    "type": "Painting",
+    "id": 9,
+    "name": "Поцелуй",
+    "description": "Знаменитая картина с использованием золотой фольги",
+    "creationDate": "1908-01-01",
+    "acquisitionDate": "2020-07-20",
+    "inventoryNumber": "МУЗ-ПЛ-2020-002",
+    "status": "ON_DISPLAY",
+    "author": {
+      "id": 11,
+      "fullName": "Густав Климт",
+      "birthYear": 1862,
+      "deathYear": 1918,
+      "country": "Австрия",
+      "biography": "Австрийский художник модерна"
+    },
+    "category": {
+      "id": 1,
+      "name": "Живопись",
+      "description": "Картины и произведения живописи",
+      "categoryCode": "ПЛ",
+      "subcategories": []
+    },
+    "location": {
+      "id": 6,
+      "hallName": "Зал современного искусства",
+      "displayNumber": "2",
+      "capacity": 30,
+      "currentCount": 2
+    },
+    "estimatedValue": 150000000,
+    "imagePath": "https://upload.wikimedia.org/wikipedia/commons/4/40/The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg",
+    "technique": "масло, золотая фольга",
+    "width": 180,
+    "height": 180,
+    "hasFrame": true
+  },
+  {
+    "type": "Painting",
+    "id": 10,
+    "name": "Крик",
+    "description": "Символ экзистенциальной тревоги и страха",
+    "creationDate": "1893-01-01",
+    "acquisitionDate": "2018-03-15",
+    "inventoryNumber": "МУЗ-ПЛ-2018-002",
+    "status": "ON_LOAN",
+    "author": {
+      "id": 12,
+      "fullName": "Эдвард Мунк",
+      "birthYear": 1863,
+      "deathYear": 1944,
+      "country": "Норвегия",
+      "biography": "Норвежский экспрессионист"
+    },
+    "category": {
+      "id": 1,
+      "name": "Живопись",
+      "description": "Картины и произведения живописи",
+      "categoryCode": "ПЛ",
+      "subcategories": []
+    },
+    "location": {
+      "id": 8,
+      "hallName": "Временная выставка (Осло)",
+      "displayNumber": "L-1",
+      "capacity": 1,
+      "currentCount": 1
+    },
+    "estimatedValue": 120000000,
+    "imagePath": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Edvard_Munch%2C_1893%2C_The_Scream%2C_oil%2C_tempera_and_pastel_on_cardboard%2C_91_x_73_cm%2C_National_Gallery_of_Norway.jpg",
+    "technique": "темпера, картон",
+    "width": 73,
+    "height": 91,
+    "hasFrame": true
+  },
+  {
+    "type": "Painting",
+    "id": 11,
+    "name": "Чёрный квадрат",
+    "description": "Революционное произведение супрематизма",
+    "creationDate": "1915-01-01",
+    "acquisitionDate": "2016-12-01",
+    "inventoryNumber": "МУЗ-ПЛ-2016-001",
+    "status": "ON_DISPLAY",
+    "author": {
+      "id": 14,
+      "fullName": "Казимир Малевич",
+      "birthYear": 1879,
+      "deathYear": 1935,
+      "country": "Россия",
+      "biography": "Основоположник супрематизма"
+    },
+    "category": {
+      "id": 1,
+      "name": "Живопись",
+      "description": "Картины и произведения живописи",
+      "categoryCode": "ПЛ",
+      "subcategories": []
+    },
+    "location": {
+      "id": 7,
+      "hallName": "Зал русского искусства",
+      "displayNumber": "2",
+      "capacity": 40,
+      "currentCount": 2
+    },
+    "estimatedValue": 60000000,
+    "imagePath": "https://upload.wikimedia.org/wikipedia/commons/5/57/Malevich.black-square.jpg",
+    "technique": "масло",
+    "width": 79,
+    "height": 79,
+    "hasFrame": true
+  },
+  {
+    "type": "Painting",
+    "id": 12,
+    "name": "Две Фриды",
+    "description": "Автопортрет, изображающий две версии художницы",
+    "creationDate": "1939-01-01",
+    "acquisitionDate": "2023-02-14",
+    "inventoryNumber": "МУЗ-ПЛ-2023-001",
+    "status": "ON_DISPLAY",
+    "author": {
+      "id": 13,
+      "fullName": "Фрида Кало",
+      "birthYear": 1907,
+      "deathYear": 1954,
+      "country": "Мексика",
+      "biography": "Мексиканская художница"
+    },
+    "category": {
+      "id": 1,
+      "name": "Живопись",
+      "description": "Картины и произведения живописи",
+      "categoryCode": "ПЛ",
+      "subcategories": []
+    },
+    "location": {
+      "id": 6,
+      "hallName": "Зал современного искусства",
+      "displayNumber": "3",
+      "capacity": 30,
+      "currentCount": 3
+    },
+    "estimatedValue": 35000000,
+    "imagePath": "будет позже",
+    "technique": "масло",
+    "width": 173,
+    "height": 173,
+    "hasFrame": true
+  },
+  {
+    "type": "Sculpture",
+    "id": 13,
+    "name": "Давид",
+    "description": "Монументальная мраморная скульптура библейского героя",
+    "creationDate": "1504-01-01",
+    "acquisitionDate": "2015-09-12",
+    "inventoryNumber": "МУЗ-СК-2015-001",
+    "status": "ON_DISPLAY",
+    "author": {
+      "id": 5,
+      "fullName": "Микеланджело Буонарроти",
+      "birthYear": 1475,
+      "deathYear": 1564,
+      "country": "Италия",
+      "biography": "Итальянский скульптор и художник"
+    },
+    "category": {
+      "id": 2,
+      "name": "Скульптура",
+      "description": "Скульптурные произведения",
+      "categoryCode": "СК",
+      "subcategories": []
+    },
+    "location": {
+      "id": 9,
+      "hallName": "Зал скульптуры",
+      "displayNumber": "1",
+      "capacity": 30,
+      "currentCount": 1
+    },
+    "estimatedValue": 500000000,
+    "imagePath": "https://upload.wikimedia.org/wikipedia/commons/a/a0/%27David%27_by_Michelangelo_Fir_JBU002.jpg",
+    "material": "мрамор",
+    "weight": 5500.0,
+    "height": 517.0
+  },
+  {
+    "type": "Sculpture",
+    "id": 14,
+    "name": "Мыслитель",
+    "description": "Бронзовая скульптура, изображающая сидящего мужчину в глубоком размышлении",
+    "creationDate": "1880-01-01",
+    "acquisitionDate": "2017-06-15",
+    "inventoryNumber": "МУЗ-СК-2017-001",
+    "status": "ON_DISPLAY",
+    "author": {
+      "id": 8,
+      "fullName": "Огюст Роден",
+      "birthYear": 1840,
+      "deathYear": 1917,
+      "country": "Франция",
+      "biography": "Французский скульптор-импрессионист"
+    },
+    "category": {
+      "id": 2,
+      "name": "Скульптура",
+      "description": "Скульптурные произведения",
+      "categoryCode": "СК",
+      "subcategories": []
+    },
+    "location": {
+      "id": 9,
+      "hallName": "Зал скульптуры",
+      "displayNumber": "2",
+      "capacity": 30,
+      "currentCount": 2
+    },
+    "estimatedValue": 15000000,
+    "imagePath": "https://upload.wikimedia.org/wikipedia/commons/5/56/The_Thinker%2C_Rodin.jpg",
+    "material": "бронза",
+    "weight": 800.0,
+    "height": 180.0
+  },
+  {
+    "type": "Sculpture",
+    "id": 15,
+    "name": "Пьета",
+    "description": "Скульптура Девы Марии с телом Иисуса Христа",
+    "creationDate": "1499-01-01",
+    "acquisitionDate": "2016-04-20",
+    "inventoryNumber": "МУЗ-СК-2016-001",
+    "status": "ON_DISPLAY",
+    "author": {
+      "id": 5,
+      "fullName": "Микеланджело Буонарроти",
+      "birthYear": 1475,
+      "deathYear": 1564,
+      "country": "Италия",
+      "biography": "Итальянский скульптор и художник"
+    },
+    "category": {
+      "id": 2,
+      "name": "Скульптура",
+      "description": "Скульптурные произведения",
+      "categoryCode": "СК",
+      "subcategories": []
+    },
+    "location": {
+      "id": 9,
+      "hallName": "Зал скульптуры",
+      "displayNumber": "3",
+      "capacity": 30,
+      "currentCount": 3
+    },
+    "estimatedValue": 300000000,
+    "imagePath": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Michelangelo%27s_Pieta_5450_cropncleaned_edit.jpg",
+    "material": "мрамор",
+    "weight": 2000.0,
+    "height": 174.0
+  },
+  {
+    "type": "Sculpture",
+    "id": 16,
+    "name": "Поцелуй",
+    "description": "Мраморная скульптура целующейся пары",
+    "creationDate": "1889-01-01",
+    "acquisitionDate": "2019-08-10",
+    "inventoryNumber": "МУЗ-СК-2019-001",
+    "status": "ON_DISPLAY",
+    "author": {
+      "id": 8,
+      "fullName": "Огюст Роден",
+      "birthYear": 1840,
+      "deathYear": 1917,
+      "country": "Франция",
+      "biography": "Французский скульптор-импрессионист"
+    },
+    "category": {
+      "id": 2,
+      "name": "Скульптура",
+      "description": "Скульптурные произведения",
+      "categoryCode": "СК",
+      "subcategories": []
+    },
+    "location": {
+      "id": 9,
+      "hallName": "Зал скульптуры",
+      "displayNumber": "4",
+      "capacity": 30,
+      "currentCount": 4
+    },
+    "estimatedValue": 20000000,
+    "imagePath": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Rodin_-_Le_Baiser_06.jpg",
+    "material": "мрамор",
+    "weight": 1500.0,
+    "height": 181.5
+  },
+  {
+    "type": "Sculpture",
+    "id": 17,
+    "name": "Давид",
+    "description": "Бронзовый Давид работы Донателло, первая отдельно стоящая обнажённая статуя Возрождения",
+    "creationDate": "1440-01-01",
+    "acquisitionDate": "2018-11-25",
+    "inventoryNumber": "МУЗ-СК-2018-001",
+    "status": "ON_RESTORATION",
+    "author": {
+      "id": 15,
+      "fullName": "Донателло",
+      "birthYear": 1386,
+      "deathYear": 1466,
+      "country": "Италия",
+      "biography": "Итальянский скульптор раннего Возрождения"
+    },
+    "category": {
+      "id": 2,
+      "name": "Скульптура",
+      "description": "Скульптурные произведения",
+      "categoryCode": "СК",
+      "subcategories": []
+    },
+    "location": {
+      "id": 4,
+      "hallName": "Реставрационная мастерская",
+      "displayNumber": "R-2",
+      "capacity": 20,
+      "currentCount": 6
+    },
+    "estimatedValue": 100000000,
+    "imagePath": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Donatello_-_David_-_Floren%C3%A7a.jpg",
+    "material": "бронза",
+    "weight": 350.0,
+    "height": 158.0
+  },
+  {
+    "type": "Sculpture",
+    "id": 18,
+    "name": "Врата ада",
+    "description": "Монументальная бронзовая дверь с многочисленными скульптурными изображениями",
+    "creationDate": "1917-01-01",
+    "acquisitionDate": "2020-03-18",
+    "inventoryNumber": "МУЗ-СК-2020-001",
+    "status": "IN_STORAGE",
+    "author": {
+      "id": 8,
+      "fullName": "Огюст Роден",
+      "birthYear": 1840,
+      "deathYear": 1917,
+      "country": "Франция",
+      "biography": "Французский скульптор-импрессионист"
+    },
+    "category": {
+      "id": 2,
+      "name": "Скульптура",
+      "description": "Скульптурные произведения",
+      "categoryCode": "СК",
+      "subcategories": []
+    },
+    "location": {
+      "id": 2,
+      "hallName": "Хранилище",
+      "displayNumber": "S-2",
+      "capacity": 100,
+      "currentCount": 46
+    },
+    "estimatedValue": 75000000,
+    "imagePath": "https://upload.wikimedia.org/wikipedia/commons/1/14/Mus%C3%A9e_Rodin_1.jpg",
+    "material": "бронза",
+    "weight": 8000.0,
+    "height": 600.0
+  },
+  {
+    "type": "Artifact",
+    "id": 19,
+    "name": "Египетский саркофаг",
+    "description": "Древний саркофаг фараона XVIII династии",
+    "creationDate": "-1300-01-01",
+    "acquisitionDate": "2016-07-20",
+    "inventoryNumber": "МУЗ-АР-2016-001",
+    "status": "ON_DISPLAY",
+    "category": {
+      "id": 3,
+      "name": "Артефакты",
+      "description": "Исторические артефакты и древности",
+      "categoryCode": "АР",
+      "subcategories": []
+    },
+    "location": {
+      "id": 10,
+      "hallName": "Зал древностей",
+      "displayNumber": "1",
+      "capacity": 40,
+      "currentCount": 1
+    },
+    "estimatedValue": 5000000,
+    "imagePath": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Egyptian_-_Coffin_of_Nesykhonsu_-_Walters_2113_-_Profile.jpg",
+    "origin": "Древний Египет",
+    "period": "Новое царство (XVIII династия)",
+    "material": "камень, золото",
+    "age": 3300.0
+  },
+  {
+    "type": "Artifact",
+    "id": 20,
+    "name": "Греческая амфора",
+    "description": "Керамический сосуд с изображением олимпийских игр",
+    "creationDate": "-0500-01-01",
+    "acquisitionDate": "2018-03-12",
+    "inventoryNumber": "МУЗ-АР-2018-001",
+    "status": "ON_DISPLAY",
+    "category": {
+      "id": 3,
+      "name": "Артефакты",
+      "description": "Исторические артефакты и древности",
+      "categoryCode": "АР",
+      "subcategories": []
+    },
+    "location": {
+      "id": 10,
+      "hallName": "Зал древностей",
+      "displayNumber": "2",
+      "capacity": 40,
+      "currentCount": 2
+    },
+    "estimatedValue": 200000,
+    "imagePath": "https://upload.wikimedia.org/wikipedia/commons/6/66/Kleophrades_Painter_ARV_182_5_Dionysos_with_satyrs_and_maenads_%28detail%29_-_Getty_Museum.jpg",
+    "origin": "Древняя Греция",
+    "period": "Классический период",
+    "material": "глина",
+    "age": 2500.0
+  },
+  {
+    "type": "Artifact",
+    "id": 21,
+    "name": "Римская монета императора Траяна",
+    "description": "Золотая монета с изображением императора",
+    "creationDate": "0100-01-01",
+    "acquisitionDate": "2020-10-05",
+    "inventoryNumber": "МУЗ-АР-2020-001",
+    "status": "ON_DISPLAY",
+    "category": {
+      "id": 3,
+      "name": "Артефакты",
+      "description": "Исторические артефакты и древности",
+      "categoryCode": "АР",
+      "subcategories": []
+    },
+    "location": {
+      "id": 10,
+      "hallName": "Зал древностей",
+      "displayNumber": "3",
+      "capacity": 40,
+      "currentCount": 3
+    },
+    "estimatedValue": 50000,
+    "imagePath": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Trajan_Aureus_98-99_RIC_16.jpg",
+    "origin": "Древний Рим",
+    "period": "Империя (II век н.э.)",
+    "material": "золото",
+    "age": 1900.0
+  },
+  {
+    "type": "Artifact",
+    "id": 22,
+    "name": "Китайская ваза династии Мин",
+    "description": "Фарфоровая ваза с бело-синим орнаментом",
+    "creationDate": "1500-01-01",
+    "acquisitionDate": "2019-06-28",
+    "inventoryNumber": "МУЗ-АР-2019-001",
+    "status": "ON_DISPLAY",
+    "category": {
+      "id": 3,
+      "name": "Артефакты",
+      "description": "Исторические артефакты и древности",
+      "categoryCode": "АР",
+      "subcategories": []
+    },
+    "location": {
+      "id": 11,
+      "hallName": "Зал восточного искусства",
+      "displayNumber": "1",
+      "capacity": 35,
+      "currentCount": 1
+    },
+    "estimatedValue": 1500000,
+    "imagePath": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Chinese_-_Vase_with_Dragon_Design_-_Walters_491913.jpg",
+    "origin": "Китай",
+    "period": "Династия Мин",
+    "material": "фарфор",
+    "age": 525.0
+  },
+  {
+    "type": "Artifact",
+    "id": 23,
+    "name": "Японский самурайский меч катана",
+    "description": "Традиционный японский меч эпохи Эдо",
+    "creationDate": "1650-01-01",
+    "acquisitionDate": "2021-02-15",
+    "inventoryNumber": "МУЗ-АР-2021-001",
+    "status": "ON_DISPLAY",
+    "category": {
+      "id": 3,
+      "name": "Артефакты",
+      "description": "Исторические артефакты и древности",
+      "categoryCode": "АР",
+      "subcategories": []
+    },
+    "location": {
+      "id": 11,
+      "hallName": "Зал восточного искусства",
+      "displayNumber": "2",
+      "capacity": 35,
+      "currentCount": 2
+    },
+    "estimatedValue": 800000,
+    "imagePath": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Antique_Japanese_%28samurai%29_katana_met_museum.jpg",
+    "origin": "Япония",
+    "period": "Эпоха Эдо",
+    "material": "сталь, дерево, шёлк",
+    "age": 375.0
+  },
+  {
+    "type": "Artifact",
+    "id": 24,
+    "name": "Месопотамская клинописная табличка",
+    "description": "Глиняная табличка с клинописным текстом",
+    "creationDate": "-2000-01-01",
+    "acquisitionDate": "2017-09-10",
+    "inventoryNumber": "МУЗ-АР-2017-001",
+    "status": "ON_DISPLAY",
+    "category": {
+      "id": 3,
+      "name": "Артефакты",
+      "description": "Исторические артефакты и древности",
+      "categoryCode": "АР",
+      "subcategories": []
+    },
+    "location": {
+      "id": 10,
+      "hallName": "Зал древностей",
+      "displayNumber": "4",
+      "capacity": 40,
+      "currentCount": 4
+    },
+    "estimatedValue": 350000,
+    "imagePath": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Cuneiform_tablet-_administrative_account_of_barley_distribution_with_cylinder_seal_impression_of_a_male_figure%2C_hunting_dogs%2C_and_boars_MET_DT847.jpg",
+    "origin": "Месопотамия",
+    "period": "Древневавилонский период",
+    "material": "глина",
+    "age": 4000.0
+  },
+  {
+    "type": "Artifact",
+    "id": 25,
+    "name": "Маска Тутанхамона (копия)",
+    "description": "Высококачественная копия золотой погребальной маски",
+    "creationDate": "1970-01-01",
+    "acquisitionDate": "2022-11-20",
+    "inventoryNumber": "МУЗ-АР-2022-001",
+    "status": "ON_DISPLAY",
+    "category": {
+      "id": 3,
+      "name": "Артефакты",
+      "description": "Исторические артефакты и древности",
+      "categoryCode": "АР",
+      "subcategories": []
+    },
+    "location": {
+      "id": 10,
+      "hallName": "Зал древностей",
+      "displayNumber": "5",
+      "capacity": 40,
+      "currentCount": 5
+    },
+    "estimatedValue": 100000,
+    "imagePath": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Tuthankhamun_Egyptian_Museum.jpg",
+    "origin": "Египет (копия)",
+    "period": "XX век (копия оригинала 1323 г. до н.э.)",
+    "material": "позолоченная бронза",
+    "age": 55.0
+  },
+  {
+    "type": "Artifact",
+    "id": 26,
+    "name": "Скифский золотой гребень",
+    "description": "Золотой гребень со сценой битвы",
+    "creationDate": "-0400-01-01",
+    "acquisitionDate": "2018-08-30",
+    "inventoryNumber": "МУЗ-АР-2018-002",
+    "status": "IN_STORAGE",
+    "category": {
+      "id": 3,
+      "name": "Артефакты",
+      "description": "Исторические артефакты и древности",
+      "categoryCode": "АР",
+      "subcategories": []
+    },
+    "location": {
+      "id": 2,
+      "hallName": "Хранилище",
+      "displayNumber": "S-3",
+      "capacity": 100,
+      "currentCount": 47
+    },
+    "estimatedValue": 2500000,
+    "imagePath": "https://upload.wikimedia.org/wikipedia/commons/4/44/Golden_Pectoral_from_Tovsta_Mohyla.jpg",
+    "origin": "Скифия",
+    "period": "IV век до н.э.",
+    "material": "золото",
+    "age": 2400.0
+  },
+  {
+    "type": "Artifact",
+    "id": 27,
+    "name": "Персидский ковёр Исфахан",
+    "description": "Ручной работы шёлковый ковёр с растительным орнаментом",
+    "creationDate": "1600-01-01",
+    "acquisitionDate": "2023-03-25",
+    "inventoryNumber": "МУЗ-АР-2023-001",
+    "status": "ON_DISPLAY",
+    "category": {
+      "id": 3,
+      "name": "Артефакты",
+      "description": "Исторические артефакты и древности",
+      "categoryCode": "АР",
+      "subcategories": []
+    },
+    "location": {
+      "id": 11,
+      "hallName": "Зал восточного искусства",
+      "displayNumber": "3",
+      "capacity": 35,
+      "currentCount": 3
+    },
+    "estimatedValue": 3000000,
+    "imagePath": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Ardabil_Carpet.jpg",
+    "origin": "Персия",
+    "period": "Империя Сефевидов",
+    "material": "шёлк, шерсть",
+    "age": 425.0
+  }
+]

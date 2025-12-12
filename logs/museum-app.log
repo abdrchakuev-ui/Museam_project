@@ -1,0 +1,846 @@
+2025-12-04 21:51:22 [main] INFO  kz.enu.museum.Main - Запуск приложения 'Каталог музея'
+2025-12-04 21:51:22 [JavaFX-Launcher] INFO  kz.enu.museum.Main - === Инициализация приложения ===
+2025-12-04 21:51:22 [JavaFX-Launcher] INFO  kz.enu.museum.Main - JsonDataManager инициализирован
+2025-12-04 21:51:22 [JavaFX-Launcher] INFO  kz.enu.museum.Main - Репозитории инициализированы
+2025-12-04 21:51:22 [JavaFX-Launcher] INFO  kz.enu.museum.Main - Сервисы инициализированы
+2025-12-04 21:51:22 [JavaFX-Launcher] INFO  kz.enu.museum.Main - Загрузка данных...
+2025-12-04 21:51:22 [JavaFX-Launcher] WARN  kz.enu.museum.util.JsonDataManager - Файл категорий не найден: src/main/resources/data/categories.json
+2025-12-04 21:51:22 [JavaFX-Launcher] INFO  kz.enu.museum.Main - Загружено 0 категорий
+2025-12-04 21:51:22 [JavaFX-Launcher] WARN  kz.enu.museum.util.JsonDataManager - Файл художников не найден: src/main/resources/data/artists.json
+2025-12-04 21:51:22 [JavaFX-Launcher] INFO  kz.enu.museum.Main - Загружено 0 художников
+2025-12-04 21:51:22 [JavaFX-Launcher] WARN  kz.enu.museum.util.JsonDataManager - Файл экспонатов не найден: src/main/resources/data/exhibits.json
+2025-12-04 21:51:22 [JavaFX-Launcher] INFO  kz.enu.museum.Main - Загружено 0 экспонатов
+2025-12-04 21:51:22 [JavaFX-Launcher] INFO  kz.enu.museum.Main - Сервисы поиска и отчётов инициализированы
+2025-12-04 21:51:22 [JavaFX-Launcher] INFO  kz.enu.museum.Main - === Инициализация завершена успешно ===
+2025-12-04 21:51:22 [JavaFX Application Thread] INFO  kz.enu.museum.Main - Запуск GUI...
+2025-12-04 21:51:23 [JavaFX Application Thread] DEBUG kz.enu.museum.controller.MainController - Инициализация MainController
+2025-12-04 21:51:23 [JavaFX Application Thread] INFO  kz.enu.museum.controller.MainController - MainController инициализирован с сервисами
+2025-12-04 21:51:23 [JavaFX Application Thread] DEBUG kz.enu.museum.controller.MainController - Инициализация таблицы экспонатов
+2025-12-04 21:51:23 [JavaFX Application Thread] DEBUG kz.enu.museum.controller.MainController - Инициализация дерева категорий
+2025-12-04 21:51:23 [JavaFX Application Thread] DEBUG kz.enu.museum.controller.MainController - Инициализация фильтров
+2025-12-04 21:51:23 [JavaFX Application Thread] DEBUG kz.enu.museum.controller.MainController - Инициализация обработчиков событий
+2025-12-04 21:51:24 [JavaFX Application Thread] INFO  kz.enu.museum.Main - GUI запущен успешно
+2025-12-04 21:51:44 [JavaFX Application Thread] INFO  kz.enu.museum.controller.MainController - Поиск выполнен: найдено 0 результатов
+2025-12-04 21:51:46 [JavaFX Application Thread] INFO  kz.enu.museum.controller.MainController - Поиск выполнен: найдено 0 результатов
+2025-12-04 21:51:48 [JavaFX Application Thread] INFO  kz.enu.museum.controller.MainController - Поиск выполнен: найдено 0 результатов
+2025-12-04 21:51:54 [JavaFX Application Thread] INFO  kz.enu.museum.controller.MainController - Импорт из JSON
+2025-12-04 21:52:18 [JavaFX Application Thread] INFO  kz.enu.museum.controller.MainController - Выход из приложения
+2025-12-04 21:52:20 [JavaFX Application Thread] INFO  kz.enu.museum.controller.MainController - Приложение закрыто пользователем
+2025-12-04 21:58:09 [main] INFO  kz.enu.museum.Main - Запуск приложения 'Каталог музея'
+2025-12-04 21:58:09 [JavaFX-Launcher] INFO  kz.enu.museum.Main - === Инициализация приложения ===
+2025-12-04 21:58:09 [JavaFX-Launcher] INFO  kz.enu.museum.Main - JsonDataManager инициализирован
+2025-12-04 21:58:09 [JavaFX-Launcher] INFO  kz.enu.museum.Main - Репозитории инициализированы
+2025-12-04 21:58:09 [JavaFX-Launcher] INFO  kz.enu.museum.Main - Сервисы инициализированы
+2025-12-04 21:58:09 [JavaFX-Launcher] INFO  kz.enu.museum.Main - Загрузка данных...
+2025-12-04 21:58:09 [JavaFX-Launcher] WARN  kz.enu.museum.util.JsonDataManager - Файл категорий не найден: src/main/resources/data/categories.json
+2025-12-04 21:58:09 [JavaFX-Launcher] INFO  kz.enu.museum.Main - Загружено 0 категорий
+2025-12-04 21:58:09 [JavaFX-Launcher] WARN  kz.enu.museum.util.JsonDataManager - Файл художников не найден: src/main/resources/data/artists.json
+2025-12-04 21:58:09 [JavaFX-Launcher] INFO  kz.enu.museum.Main - Загружено 0 художников
+2025-12-04 21:58:09 [JavaFX-Launcher] WARN  kz.enu.museum.util.JsonDataManager - Файл экспонатов не найден: src/main/resources/data/exhibits.json
+2025-12-04 21:58:09 [JavaFX-Launcher] INFO  kz.enu.museum.Main - Загружено 0 экспонатов
+2025-12-04 21:58:09 [JavaFX-Launcher] INFO  kz.enu.museum.Main - Сервисы поиска и отчётов инициализированы
+2025-12-04 21:58:09 [JavaFX-Launcher] INFO  kz.enu.museum.Main - === Инициализация завершена успешно ===
+2025-12-04 21:58:09 [JavaFX Application Thread] INFO  kz.enu.museum.Main - Запуск GUI...
+2025-12-04 21:58:11 [JavaFX Application Thread] DEBUG kz.enu.museum.controller.MainController - Инициализация MainController
+2025-12-04 21:58:11 [JavaFX Application Thread] INFO  kz.enu.museum.controller.MainController - MainController инициализирован с сервисами
+2025-12-04 21:58:11 [JavaFX Application Thread] DEBUG kz.enu.museum.controller.MainController - Инициализация таблицы экспонатов
+2025-12-04 21:58:11 [JavaFX Application Thread] DEBUG kz.enu.museum.controller.MainController - Инициализация дерева категорий
+2025-12-04 21:58:11 [JavaFX Application Thread] DEBUG kz.enu.museum.controller.MainController - Инициализация фильтров
+2025-12-04 21:58:11 [JavaFX Application Thread] DEBUG kz.enu.museum.controller.MainController - Инициализация обработчиков событий
+2025-12-04 21:58:13 [JavaFX Application Thread] INFO  kz.enu.museum.Main - GUI запущен успешно
+2025-12-04 21:58:21 [JavaFX Application Thread] INFO  kz.enu.museum.controller.MainController - Открытие статистики
+2025-12-04 21:58:30 [JavaFX Application Thread] INFO  kz.enu.museum.controller.MainController - Импорт из JSON
+2025-12-04 21:59:08 [JavaFX Application Thread] INFO  kz.enu.museum.controller.MainController - Импорт из JSON
+2025-12-04 21:59:14 [JavaFX Application Thread] INFO  kz.enu.museum.controller.MainController - Импорт из JSON
+2025-12-04 21:59:40 [JavaFX Application Thread] INFO  kz.enu.museum.controller.MainController - Обновление данных
+2025-12-04 21:59:42 [JavaFX Application Thread] INFO  kz.enu.museum.controller.MainController - Обновление данных
+2025-12-04 21:59:52 [JavaFX Application Thread] INFO  kz.enu.museum.controller.MainController - Импорт из JSON
+2025-12-04 22:00:18 [JavaFX Application Thread] INFO  kz.enu.museum.controller.MainController - Обновление данных
+2025-12-04 22:02:33 [main] INFO  kz.enu.museum.Main - Запуск приложения 'Каталог музея'
+2025-12-04 22:02:33 [JavaFX-Launcher] INFO  kz.enu.museum.Main - === Инициализация приложения ===
+2025-12-04 22:02:33 [JavaFX-Launcher] INFO  kz.enu.museum.Main - JsonDataManager инициализирован
+2025-12-04 22:02:33 [JavaFX-Launcher] INFO  kz.enu.museum.Main - Репозитории инициализированы
+2025-12-04 22:02:33 [JavaFX-Launcher] INFO  kz.enu.museum.Main - Сервисы инициализированы
+2025-12-04 22:02:33 [JavaFX-Launcher] INFO  kz.enu.museum.Main - Загрузка данных...
+2025-12-04 22:02:33 [JavaFX-Launcher] WARN  kz.enu.museum.util.JsonDataManager - Файл категорий не найден: src/main/resources/data/categories.json
+2025-12-04 22:02:33 [JavaFX-Launcher] INFO  kz.enu.museum.Main - Загружено 0 категорий
+2025-12-04 22:02:33 [JavaFX-Launcher] WARN  kz.enu.museum.util.JsonDataManager - Файл художников не найден: src/main/resources/data/artists.json
+2025-12-04 22:02:33 [JavaFX-Launcher] INFO  kz.enu.museum.Main - Загружено 0 художников
+2025-12-04 22:02:33 [JavaFX-Launcher] WARN  kz.enu.museum.util.JsonDataManager - Файл экспонатов не найден: src/main/resources/data/exhibits.json
+2025-12-04 22:02:33 [JavaFX-Launcher] INFO  kz.enu.museum.Main - Загружено 0 экспонатов
+2025-12-04 22:02:33 [JavaFX-Launcher] INFO  kz.enu.museum.Main - Сервисы поиска и отчётов инициализированы
+2025-12-04 22:02:33 [JavaFX-Launcher] INFO  kz.enu.museum.Main - === Инициализация завершена успешно ===
+2025-12-04 22:02:33 [JavaFX Application Thread] INFO  kz.enu.museum.Main - Запуск GUI...
+2025-12-04 22:02:34 [JavaFX Application Thread] DEBUG kz.enu.museum.controller.MainController - Инициализация MainController
+2025-12-04 22:02:34 [JavaFX Application Thread] INFO  kz.enu.museum.controller.MainController - MainController инициализирован с сервисами
+2025-12-04 22:02:34 [JavaFX Application Thread] DEBUG kz.enu.museum.controller.MainController - Инициализация таблицы экспонатов
+2025-12-04 22:02:34 [JavaFX Application Thread] DEBUG kz.enu.museum.controller.MainController - Инициализация дерева категорий
+2025-12-04 22:02:34 [JavaFX Application Thread] DEBUG kz.enu.museum.controller.MainController - Инициализация фильтров
+2025-12-04 22:02:34 [JavaFX Application Thread] DEBUG kz.enu.museum.controller.MainController - Инициализация обработчиков событий
+2025-12-04 22:02:36 [JavaFX Application Thread] INFO  kz.enu.museum.Main - GUI запущен успешно
+2025-12-04 22:04:20 [main] INFO  kz.enu.museum.Main - Запуск приложения 'Каталог музея'
+2025-12-04 22:04:20 [JavaFX-Launcher] INFO  kz.enu.museum.Main - === Инициализация приложения ===
+2025-12-04 22:04:20 [JavaFX-Launcher] INFO  kz.enu.museum.Main - JsonDataManager инициализирован
+2025-12-04 22:04:20 [JavaFX-Launcher] INFO  kz.enu.museum.Main - Репозитории инициализированы
+2025-12-04 22:04:20 [JavaFX-Launcher] INFO  kz.enu.museum.Main - Сервисы инициализированы
+2025-12-04 22:04:20 [JavaFX-Launcher] INFO  kz.enu.museum.Main - Загрузка данных...
+2025-12-04 22:04:20 [JavaFX-Launcher] WARN  kz.enu.museum.util.JsonDataManager - Файл категорий не найден: src/main/resources/data/categories.json
+2025-12-04 22:04:20 [JavaFX-Launcher] INFO  kz.enu.museum.Main - Загружено 0 категорий
+2025-12-04 22:04:20 [JavaFX-Launcher] WARN  kz.enu.museum.util.JsonDataManager - Файл художников не найден: src/main/resources/data/artists.json
+2025-12-04 22:04:20 [JavaFX-Launcher] INFO  kz.enu.museum.Main - Загружено 0 художников
+2025-12-04 22:04:20 [JavaFX-Launcher] WARN  kz.enu.museum.util.JsonDataManager - Файл экспонатов не найден: src/main/resources/data/exhibits.json
+2025-12-04 22:04:20 [JavaFX-Launcher] INFO  kz.enu.museum.Main - Загружено 0 экспонатов
+2025-12-04 22:04:20 [JavaFX-Launcher] INFO  kz.enu.museum.Main - Сервисы поиска и отчётов инициализированы
+2025-12-04 22:04:20 [JavaFX-Launcher] INFO  kz.enu.museum.Main - === Инициализация завершена успешно ===
+2025-12-04 22:04:20 [JavaFX Application Thread] INFO  kz.enu.museum.Main - Запуск GUI...
+2025-12-04 22:04:21 [JavaFX Application Thread] DEBUG kz.enu.museum.controller.MainController - Инициализация MainController
+2025-12-04 22:04:21 [JavaFX Application Thread] INFO  kz.enu.museum.controller.MainController - MainController инициализирован с сервисами
+2025-12-04 22:04:21 [JavaFX Application Thread] DEBUG kz.enu.museum.controller.MainController - Инициализация таблицы экспонатов
+2025-12-04 22:04:21 [JavaFX Application Thread] DEBUG kz.enu.museum.controller.MainController - Инициализация дерева категорий
+2025-12-04 22:04:21 [JavaFX Application Thread] DEBUG kz.enu.museum.controller.MainController - Инициализация фильтров
+2025-12-04 22:04:21 [JavaFX Application Thread] DEBUG kz.enu.museum.controller.MainController - Инициализация обработчиков событий
+2025-12-04 22:04:23 [JavaFX Application Thread] INFO  kz.enu.museum.Main - GUI запущен успешно
+2025-12-04 22:04:25 [JavaFX Application Thread] INFO  kz.enu.museum.controller.MainController - Запрос на добавление экспоната
+2025-12-04 22:04:28 [JavaFX Application Thread] INFO  kz.enu.museum.controller.MainController - Добавление скульптуры
+2025-12-04 22:05:36 [JavaFX Application Thread] INFO  kz.enu.museum.Main - === Выход из приложения ===
+2025-12-04 22:05:36 [JavaFX Application Thread] INFO  kz.enu.museum.util.JsonDataManager - Сохранено 0 экспонатов
+2025-12-04 22:05:36 [JavaFX Application Thread] INFO  kz.enu.museum.util.JsonDataManager - Сохранено 0 категорий
+2025-12-04 22:05:36 [JavaFX Application Thread] INFO  kz.enu.museum.util.JsonDataManager - Сохранено 0 художников
+2025-12-04 22:05:36 [JavaFX Application Thread] INFO  kz.enu.museum.Main - Данные сохранены успешно
+2025-12-04 22:05:36 [JavaFX Application Thread] INFO  kz.enu.museum.Main - === Приложение завершено ===
+2025-12-04 22:06:05 [main] INFO  kz.enu.museum.Main - Запуск приложения 'Каталог музея'
+2025-12-04 22:06:05 [JavaFX-Launcher] INFO  kz.enu.museum.Main - === Инициализация приложения ===
+2025-12-04 22:06:05 [JavaFX-Launcher] INFO  kz.enu.museum.Main - JsonDataManager инициализирован
+2025-12-04 22:06:05 [JavaFX-Launcher] INFO  kz.enu.museum.Main - Репозитории инициализированы
+2025-12-04 22:06:05 [JavaFX-Launcher] INFO  kz.enu.museum.Main - Сервисы инициализированы
+2025-12-04 22:06:05 [JavaFX-Launcher] INFO  kz.enu.museum.Main - Загрузка данных...
+2025-12-04 22:06:05 [JavaFX-Launcher] INFO  kz.enu.museum.util.JsonDataManager - Загружено 3 категорий
+2025-12-04 22:06:05 [JavaFX-Launcher] INFO  kz.enu.museum.repository.CategoryRepository - Обновлена категория: Живопись
+2025-12-04 22:06:05 [JavaFX-Launcher] INFO  kz.enu.museum.repository.CategoryRepository - Обновлена категория: Скульптура
+2025-12-04 22:06:05 [JavaFX-Launcher] INFO  kz.enu.museum.repository.CategoryRepository - Обновлена категория: Артефакты
+2025-12-04 22:06:05 [JavaFX-Launcher] INFO  kz.enu.museum.Main - Загружено 3 категорий
+2025-12-04 22:06:05 [JavaFX-Launcher] INFO  kz.enu.museum.util.JsonDataManager - Загружено 15 художников
+2025-12-04 22:06:05 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ArtistRepository - Обновлён художник: Леонардо да Винчи
+2025-12-04 22:06:05 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ArtistRepository - Обновлён художник: Пабло Пикассо
+2025-12-04 22:06:05 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ArtistRepository - Обновлён художник: Клод Моне
+2025-12-04 22:06:05 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ArtistRepository - Обновлён художник: Винсент ван Гог
+2025-12-04 22:06:05 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ArtistRepository - Обновлён художник: Микеланджело Буонарроти
+2025-12-04 22:06:05 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ArtistRepository - Обновлён художник: Рембрандт ван Рейн
+2025-12-04 22:06:05 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ArtistRepository - Обновлён художник: Сальвадор Дали
+2025-12-04 22:06:05 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ArtistRepository - Обновлён художник: Огюст Роден
+2025-12-04 22:06:05 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ArtistRepository - Обновлён художник: Рафаэль Санти
+2025-12-04 22:06:05 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ArtistRepository - Обновлён художник: Иван Айвазовский
+2025-12-04 22:06:05 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ArtistRepository - Обновлён художник: Густав Климт
+2025-12-04 22:06:05 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ArtistRepository - Обновлён художник: Эдвард Мунк
+2025-12-04 22:06:05 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ArtistRepository - Обновлён художник: Фрида Кало
+2025-12-04 22:06:05 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ArtistRepository - Обновлён художник: Казимир Малевич
+2025-12-04 22:06:05 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ArtistRepository - Обновлён художник: Донателло
+2025-12-04 22:06:05 [JavaFX-Launcher] INFO  kz.enu.museum.Main - Загружено 15 художников
+2025-12-04 22:06:05 [JavaFX-Launcher] INFO  kz.enu.museum.util.JsonDataManager - Загружено 27 экспонатов
+2025-12-04 22:06:05 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Звёздная ночь (ID: 1)
+2025-12-04 22:06:05 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Водяные лилии (ID: 2)
+2025-12-04 22:06:05 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Герника (ID: 3)
+2025-12-04 22:06:05 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Мона Лиза (ID: 4)
+2025-12-04 22:06:05 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Подсолнухи (ID: 5)
+2025-12-04 22:06:05 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Ночной дозор (ID: 6)
+2025-12-04 22:06:05 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Постоянство памяти (ID: 7)
+2025-12-04 22:06:05 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Девятый вал (ID: 8)
+2025-12-04 22:06:05 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Поцелуй (ID: 9)
+2025-12-04 22:06:05 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Крик (ID: 10)
+2025-12-04 22:06:05 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Чёрный квадрат (ID: 11)
+2025-12-04 22:06:05 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Две Фриды (ID: 12)
+2025-12-04 22:06:05 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Давид (ID: 13)
+2025-12-04 22:06:05 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Мыслитель (ID: 14)
+2025-12-04 22:06:05 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Пьета (ID: 15)
+2025-12-04 22:06:05 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Поцелуй (ID: 16)
+2025-12-04 22:06:05 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Давид (ID: 17)
+2025-12-04 22:06:05 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Врата ада (ID: 18)
+2025-12-04 22:06:05 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Египетский саркофаг (ID: 19)
+2025-12-04 22:06:05 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Греческая амфора (ID: 20)
+2025-12-04 22:06:05 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Римская монета императора Траяна (ID: 21)
+2025-12-04 22:06:05 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Китайская ваза династии Мин (ID: 22)
+2025-12-04 22:06:05 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Японский самурайский меч катана (ID: 23)
+2025-12-04 22:06:05 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Месопотамская клинописная табличка (ID: 24)
+2025-12-04 22:06:05 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Маска Тутанхамона (копия) (ID: 25)
+2025-12-04 22:06:05 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Скифский золотой гребень (ID: 26)
+2025-12-04 22:06:05 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Персидский ковёр Исфахан (ID: 27)
+2025-12-04 22:06:05 [JavaFX-Launcher] INFO  kz.enu.museum.Main - Загружено 27 экспонатов
+2025-12-04 22:06:05 [JavaFX-Launcher] INFO  kz.enu.museum.Main - Сервисы поиска и отчётов инициализированы
+2025-12-04 22:06:05 [JavaFX-Launcher] INFO  kz.enu.museum.Main - === Инициализация завершена успешно ===
+2025-12-04 22:06:05 [JavaFX Application Thread] INFO  kz.enu.museum.Main - Запуск GUI...
+2025-12-04 22:06:06 [JavaFX Application Thread] DEBUG kz.enu.museum.controller.MainController - Инициализация MainController
+2025-12-04 22:06:06 [JavaFX Application Thread] INFO  kz.enu.museum.controller.MainController - MainController инициализирован с сервисами
+2025-12-04 22:06:06 [JavaFX Application Thread] DEBUG kz.enu.museum.controller.MainController - Инициализация таблицы экспонатов
+2025-12-04 22:06:06 [JavaFX Application Thread] DEBUG kz.enu.museum.controller.MainController - Инициализация дерева категорий
+2025-12-04 22:06:06 [JavaFX Application Thread] DEBUG kz.enu.museum.controller.MainController - Инициализация фильтров
+2025-12-04 22:06:06 [JavaFX Application Thread] DEBUG kz.enu.museum.controller.MainController - Инициализация обработчиков событий
+2025-12-04 22:06:08 [JavaFX Application Thread] INFO  kz.enu.museum.Main - GUI запущен успешно
+2025-12-04 22:06:19 [JavaFX Application Thread] INFO  kz.enu.museum.controller.MainController - Фильтр по категории: Маслом
+2025-12-04 22:06:20 [JavaFX Application Thread] INFO  kz.enu.museum.controller.MainController - Фильтр по категории: Акварель
+2025-12-04 22:06:20 [JavaFX Application Thread] INFO  kz.enu.museum.controller.MainController - Фильтр по категории: Скульптура
+2025-12-04 22:06:22 [JavaFX Application Thread] INFO  kz.enu.museum.controller.MainController - Фильтр по категории: Скульптура
+2025-12-04 22:06:22 [JavaFX Application Thread] INFO  kz.enu.museum.controller.MainController - Фильтр по категории: Мрамор
+2025-12-04 22:06:23 [JavaFX Application Thread] INFO  kz.enu.museum.controller.MainController - Фильтр по категории: Мрамор
+2025-12-04 22:06:23 [JavaFX Application Thread] INFO  kz.enu.museum.controller.MainController - Фильтр по категории: Скульптура
+2025-12-04 22:06:31 [JavaFX Application Thread] INFO  kz.enu.museum.controller.MainController - Фильтр по категории: Скульптура
+2025-12-04 22:06:32 [JavaFX Application Thread] INFO  kz.enu.museum.controller.MainController - Фильтр по категории: Древний Египет
+2025-12-04 22:06:33 [JavaFX Application Thread] INFO  kz.enu.museum.controller.MainController - Фильтр по категории: Артефакты
+2025-12-04 22:06:41 [JavaFX Application Thread] INFO  kz.enu.museum.controller.MainController - Просмотр экспоната: Египетский саркофаг
+2025-12-04 22:06:54 [JavaFX Application Thread] INFO  kz.enu.museum.controller.MainController - Фильтр по категории: Живопись
+2025-12-04 22:06:58 [JavaFX Application Thread] INFO  kz.enu.museum.controller.MainController - Просмотр экспоната: Звёздная ночь
+2025-12-04 22:07:04 [JavaFX Application Thread] INFO  kz.enu.museum.controller.MainController - Запрос на добавление экспоната
+2025-12-04 22:07:05 [JavaFX Application Thread] INFO  kz.enu.museum.controller.MainController - Добавление скульптуры
+2025-12-04 22:07:12 [JavaFX Application Thread] INFO  kz.enu.museum.controller.MainController - Обновление данных
+2025-12-04 22:07:13 [JavaFX Application Thread] INFO  kz.enu.museum.controller.MainController - Открытие статистики
+2025-12-04 22:07:28 [JavaFX Application Thread] INFO  kz.enu.museum.controller.MainController - Редактирование экспоната: Звёздная ночь
+2025-12-04 22:07:33 [JavaFX Application Thread] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Звёздная ночь (ID: 1)
+2025-12-04 22:07:33 [JavaFX Application Thread] INFO  kz.enu.museum.service.ExhibitService - Экспонат обновлён: Звёздная ночь
+2025-12-04 22:07:49 [JavaFX Application Thread] INFO  kz.enu.museum.controller.MainController - Открытие менеджера категорий
+2025-12-04 22:07:56 [JavaFX Application Thread] INFO  kz.enu.museum.controller.MainController - Открытие менеджера залов
+2025-12-04 22:08:03 [JavaFX Application Thread] INFO  kz.enu.museum.controller.MainController - Отчёт по реставрации
+2025-12-04 22:08:13 [JavaFX Application Thread] INFO  kz.enu.museum.controller.MainController - Просмотр экспоната: Звёздная ночь
+2025-12-04 22:08:19 [JavaFX Application Thread] INFO  kz.enu.museum.controller.MainController - Поиск выполнен: найдено 4 результатов
+2025-12-04 22:08:21 [JavaFX Application Thread] INFO  kz.enu.museum.controller.MainController - Поиск выполнен: найдено 2 результатов
+2025-12-04 22:08:23 [JavaFX Application Thread] INFO  kz.enu.museum.controller.MainController - Поиск выполнен: найдено 20 результатов
+2025-12-04 22:08:25 [JavaFX Application Thread] INFO  kz.enu.museum.controller.MainController - Фильтр по категории: Живопись
+2025-12-04 22:08:26 [JavaFX Application Thread] INFO  kz.enu.museum.controller.MainController - Фильтр по категории: Живопись
+2025-12-04 22:08:27 [JavaFX Application Thread] INFO  kz.enu.museum.controller.MainController - Фильтр по категории: Живопись
+2025-12-04 22:08:28 [JavaFX Application Thread] INFO  kz.enu.museum.controller.MainController - Фильтр по категории: Артефакты
+2025-12-04 22:08:33 [JavaFX Application Thread] INFO  kz.enu.museum.controller.MainController - Поиск выполнен: найдено 20 результатов
+2025-12-04 22:08:34 [JavaFX Application Thread] INFO  kz.enu.museum.controller.MainController - Поиск выполнен: найдено 2 результатов
+2025-12-04 22:08:38 [JavaFX Application Thread] INFO  kz.enu.museum.controller.MainController - Поиск выполнен: найдено 20 результатов
+2025-12-04 22:08:38 [JavaFX Application Thread] INFO  kz.enu.museum.controller.MainController - Поиск выполнен: найдено 20 результатов
+2025-12-04 22:08:45 [JavaFX Application Thread] INFO  kz.enu.museum.controller.MainController - Поиск выполнен: найдено 20 результатов
+2025-12-04 22:08:45 [JavaFX Application Thread] INFO  kz.enu.museum.controller.MainController - Поиск выполнен: найдено 3 результатов
+2025-12-04 22:08:46 [JavaFX Application Thread] INFO  kz.enu.museum.controller.MainController - Поиск выполнен: найдено 20 результатов
+2025-12-04 22:08:46 [JavaFX Application Thread] INFO  kz.enu.museum.controller.MainController - Поиск выполнен: найдено 20 результатов
+2025-12-04 22:08:46 [JavaFX Application Thread] INFO  kz.enu.museum.controller.MainController - Поиск выполнен: найдено 20 результатов
+2025-12-04 22:08:46 [JavaFX Application Thread] INFO  kz.enu.museum.controller.MainController - Поиск выполнен: найдено 9 результатов
+2025-12-04 22:08:47 [JavaFX Application Thread] INFO  kz.enu.museum.controller.MainController - Поиск выполнен: найдено 20 результатов
+2025-12-04 22:08:47 [JavaFX Application Thread] INFO  kz.enu.museum.controller.MainController - Поиск выполнен: найдено 20 результатов
+2025-12-04 22:08:47 [JavaFX Application Thread] INFO  kz.enu.museum.controller.MainController - Поиск выполнен: найдено 20 результатов
+2025-12-04 22:08:47 [JavaFX Application Thread] INFO  kz.enu.museum.controller.MainController - Поиск выполнен: найдено 7 результатов
+2025-12-04 22:08:47 [JavaFX Application Thread] INFO  kz.enu.museum.controller.MainController - Поиск выполнен: найдено 5 результатов
+2025-12-04 22:08:47 [JavaFX Application Thread] INFO  kz.enu.museum.controller.MainController - Поиск выполнен: найдено 2 результатов
+2025-12-04 22:08:52 [JavaFX Application Thread] INFO  kz.enu.museum.controller.MainController - Поиск выполнен: найдено 0 результатов
+2025-12-04 22:08:54 [JavaFX Application Thread] INFO  kz.enu.museum.controller.MainController - Поиск выполнен: найдено 1 результатов
+2025-12-04 22:08:55 [JavaFX Application Thread] INFO  kz.enu.museum.controller.MainController - Поиск выполнен: найдено 0 результатов
+2025-12-04 22:08:57 [JavaFX Application Thread] INFO  kz.enu.museum.controller.MainController - Поиск выполнен: найдено 0 результатов
+2025-12-04 22:08:58 [JavaFX Application Thread] INFO  kz.enu.museum.controller.MainController - Поиск выполнен: найдено 0 результатов
+2025-12-04 22:09:03 [JavaFX Application Thread] INFO  kz.enu.museum.controller.MainController - Поиск выполнен: найдено 0 результатов
+2025-12-04 22:09:03 [JavaFX Application Thread] INFO  kz.enu.museum.controller.MainController - Поиск выполнен: найдено 2 результатов
+2025-12-04 22:09:03 [JavaFX Application Thread] INFO  kz.enu.museum.controller.MainController - Поиск выполнен: найдено 27 результатов
+2025-12-04 22:09:17 [JavaFX Application Thread] INFO  kz.enu.museum.controller.MainController - Просмотр экспоната: Звёздная ночь
+2025-12-04 22:11:27 [JavaFX Application Thread] INFO  kz.enu.museum.controller.MainController - Фильтр по категории: Живопись
+2025-12-04 22:11:28 [JavaFX Application Thread] INFO  kz.enu.museum.controller.MainController - Фильтр по категории: Скульптура
+2025-12-04 22:11:29 [JavaFX Application Thread] INFO  kz.enu.museum.controller.MainController - Фильтр по категории: Древний Египет
+2025-12-04 22:11:29 [JavaFX Application Thread] INFO  kz.enu.museum.controller.MainController - Фильтр по категории: Древний Рим
+2025-12-04 22:11:31 [JavaFX Application Thread] INFO  kz.enu.museum.controller.MainController - Фильтр по категории: Артефакты
+2025-12-04 22:11:31 [JavaFX Application Thread] INFO  kz.enu.museum.controller.MainController - Фильтр по категории: Артефакты
+2025-12-04 22:11:34 [JavaFX Application Thread] INFO  kz.enu.museum.controller.MainController - Просмотр экспоната: Египетский саркофаг
+2025-12-04 22:11:38 [JavaFX Application Thread] INFO  kz.enu.museum.controller.MainController - Редактирование экспоната: Египетский саркофаг
+2025-12-04 22:11:45 [JavaFX Application Thread] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Египетский саркофаг (ID: 19)
+2025-12-04 22:11:45 [JavaFX Application Thread] INFO  kz.enu.museum.service.ExhibitService - Экспонат обновлён: Египетский саркофаг
+2025-12-04 22:11:49 [JavaFX Application Thread] INFO  kz.enu.museum.Main - === Выход из приложения ===
+2025-12-04 22:11:49 [JavaFX Application Thread] INFO  kz.enu.museum.util.JsonDataManager - Сохранено 27 экспонатов
+2025-12-04 22:11:49 [JavaFX Application Thread] INFO  kz.enu.museum.util.JsonDataManager - Сохранено 3 категорий
+2025-12-04 22:11:49 [JavaFX Application Thread] INFO  kz.enu.museum.util.JsonDataManager - Сохранено 15 художников
+2025-12-04 22:11:49 [JavaFX Application Thread] INFO  kz.enu.museum.Main - Данные сохранены успешно
+2025-12-04 22:11:49 [JavaFX Application Thread] INFO  kz.enu.museum.Main - === Приложение завершено ===
+2025-12-04 22:14:42 [main] INFO  kz.enu.museum.Main - Запуск приложения 'Каталог музея'
+2025-12-04 22:14:42 [JavaFX-Launcher] INFO  kz.enu.museum.Main - === Инициализация приложения ===
+2025-12-04 22:14:42 [JavaFX-Launcher] INFO  kz.enu.museum.Main - JsonDataManager инициализирован
+2025-12-04 22:14:42 [JavaFX-Launcher] INFO  kz.enu.museum.Main - Репозитории инициализированы
+2025-12-04 22:14:42 [JavaFX-Launcher] INFO  kz.enu.museum.Main - Сервисы инициализированы
+2025-12-04 22:14:42 [JavaFX-Launcher] INFO  kz.enu.museum.Main - Загрузка данных...
+2025-12-04 22:14:42 [JavaFX-Launcher] INFO  kz.enu.museum.util.JsonDataManager - Загружено 3 категорий
+2025-12-04 22:14:42 [JavaFX-Launcher] INFO  kz.enu.museum.repository.CategoryRepository - Обновлена категория: Живопись
+2025-12-04 22:14:42 [JavaFX-Launcher] INFO  kz.enu.museum.repository.CategoryRepository - Обновлена категория: Скульптура
+2025-12-04 22:14:42 [JavaFX-Launcher] INFO  kz.enu.museum.repository.CategoryRepository - Обновлена категория: Артефакты
+2025-12-04 22:14:42 [JavaFX-Launcher] INFO  kz.enu.museum.Main - Загружено 3 категорий
+2025-12-04 22:14:42 [JavaFX-Launcher] INFO  kz.enu.museum.util.JsonDataManager - Загружено 15 художников
+2025-12-04 22:14:42 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ArtistRepository - Обновлён художник: Леонардо да Винчи
+2025-12-04 22:14:42 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ArtistRepository - Обновлён художник: Пабло Пикассо
+2025-12-04 22:14:42 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ArtistRepository - Обновлён художник: Клод Моне
+2025-12-04 22:14:42 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ArtistRepository - Обновлён художник: Винсент ван Гог
+2025-12-04 22:14:42 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ArtistRepository - Обновлён художник: Микеланджело Буонарроти
+2025-12-04 22:14:42 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ArtistRepository - Обновлён художник: Рембрандт ван Рейн
+2025-12-04 22:14:42 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ArtistRepository - Обновлён художник: Сальвадор Дали
+2025-12-04 22:14:42 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ArtistRepository - Обновлён художник: Огюст Роден
+2025-12-04 22:14:42 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ArtistRepository - Обновлён художник: Рафаэль Санти
+2025-12-04 22:14:42 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ArtistRepository - Обновлён художник: Иван Айвазовский
+2025-12-04 22:14:42 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ArtistRepository - Обновлён художник: Густав Климт
+2025-12-04 22:14:42 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ArtistRepository - Обновлён художник: Эдвард Мунк
+2025-12-04 22:14:42 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ArtistRepository - Обновлён художник: Фрида Кало
+2025-12-04 22:14:42 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ArtistRepository - Обновлён художник: Казимир Малевич
+2025-12-04 22:14:42 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ArtistRepository - Обновлён художник: Донателло
+2025-12-04 22:14:42 [JavaFX-Launcher] INFO  kz.enu.museum.Main - Загружено 15 художников
+2025-12-04 22:14:42 [JavaFX-Launcher] INFO  kz.enu.museum.util.JsonDataManager - Загружено 27 экспонатов
+2025-12-04 22:14:42 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Звёздная ночь (ID: 1)
+2025-12-04 22:14:42 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Водяные лилии (ID: 2)
+2025-12-04 22:14:42 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Герника (ID: 3)
+2025-12-04 22:14:42 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Мона Лиза (ID: 4)
+2025-12-04 22:14:42 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Подсолнухи (ID: 5)
+2025-12-04 22:14:42 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Ночной дозор (ID: 6)
+2025-12-04 22:14:42 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Постоянство памяти (ID: 7)
+2025-12-04 22:14:42 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Девятый вал (ID: 8)
+2025-12-04 22:14:42 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Поцелуй (ID: 9)
+2025-12-04 22:14:42 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Крик (ID: 10)
+2025-12-04 22:14:42 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Чёрный квадрат (ID: 11)
+2025-12-04 22:14:42 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Две Фриды (ID: 12)
+2025-12-04 22:14:42 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Давид (ID: 13)
+2025-12-04 22:14:42 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Мыслитель (ID: 14)
+2025-12-04 22:14:42 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Пьета (ID: 15)
+2025-12-04 22:14:42 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Поцелуй (ID: 16)
+2025-12-04 22:14:42 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Давид (ID: 17)
+2025-12-04 22:14:42 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Врата ада (ID: 18)
+2025-12-04 22:14:42 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Египетский саркофаг (ID: 19)
+2025-12-04 22:14:42 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Греческая амфора (ID: 20)
+2025-12-04 22:14:42 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Римская монета императора Траяна (ID: 21)
+2025-12-04 22:14:42 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Китайская ваза династии Мин (ID: 22)
+2025-12-04 22:14:42 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Японский самурайский меч катана (ID: 23)
+2025-12-04 22:14:42 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Месопотамская клинописная табличка (ID: 24)
+2025-12-04 22:14:42 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Маска Тутанхамона (копия) (ID: 25)
+2025-12-04 22:14:42 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Скифский золотой гребень (ID: 26)
+2025-12-04 22:14:42 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Персидский ковёр Исфахан (ID: 27)
+2025-12-04 22:14:42 [JavaFX-Launcher] INFO  kz.enu.museum.Main - Загружено 27 экспонатов
+2025-12-04 22:14:42 [JavaFX-Launcher] INFO  kz.enu.museum.Main - Сервисы поиска и отчётов инициализированы
+2025-12-04 22:14:42 [JavaFX-Launcher] INFO  kz.enu.museum.Main - === Инициализация завершена успешно ===
+2025-12-04 22:14:42 [JavaFX Application Thread] INFO  kz.enu.museum.Main - Запуск GUI...
+2025-12-04 22:14:43 [JavaFX Application Thread] DEBUG kz.enu.museum.controller.MainController - Инициализация MainController
+2025-12-04 22:14:43 [JavaFX Application Thread] INFO  kz.enu.museum.controller.MainController - MainController инициализирован с сервисами
+2025-12-04 22:14:43 [JavaFX Application Thread] DEBUG kz.enu.museum.controller.MainController - Инициализация таблицы экспонатов
+2025-12-04 22:14:43 [JavaFX Application Thread] DEBUG kz.enu.museum.controller.MainController - Инициализация дерева категорий
+2025-12-04 22:14:43 [JavaFX Application Thread] DEBUG kz.enu.museum.controller.MainController - Инициализация фильтров
+2025-12-04 22:14:43 [JavaFX Application Thread] DEBUG kz.enu.museum.controller.MainController - Инициализация обработчиков событий
+2025-12-04 22:14:45 [JavaFX Application Thread] INFO  kz.enu.museum.Main - GUI запущен успешно
+2025-12-04 22:15:38 [JavaFX Application Thread] INFO  kz.enu.museum.controller.MainController - Добавление картины
+2025-12-04 22:15:54 [JavaFX Application Thread] INFO  kz.enu.museum.repository.ExhibitRepository - Добавлен новый экспонат: оаптавпав (ID: 28)
+2025-12-04 22:15:54 [JavaFX Application Thread] INFO  kz.enu.museum.service.ExhibitService - Экспонат добавлен: оаптавпав (МУЗ-СК-2025-000001)
+2025-12-04 22:16:01 [JavaFX Application Thread] INFO  kz.enu.museum.controller.MainController - Поиск выполнен: найдено 3 результатов
+2025-12-04 22:16:02 [JavaFX Application Thread] INFO  kz.enu.museum.controller.MainController - Поиск выполнен: найдено 21 результатов
+2025-12-04 22:16:05 [JavaFX Application Thread] INFO  kz.enu.museum.controller.MainController - Открытие статистики
+2025-12-04 22:16:26 [JavaFX Application Thread] INFO  kz.enu.museum.controller.MainController - Поиск выполнен: найдено 27 результатов
+2025-12-04 22:16:31 [JavaFX Application Thread] INFO  kz.enu.museum.repository.ExhibitRepository - Удалён экспонат: оаптавпав (ID: 28)
+2025-12-04 22:16:31 [JavaFX Application Thread] INFO  kz.enu.museum.service.ExhibitService - Экспонат удалён (ID: 28)
+2025-12-04 22:20:48 [main] INFO  kz.enu.museum.Main - Запуск приложения 'Каталог музея'
+2025-12-04 22:20:48 [JavaFX-Launcher] INFO  kz.enu.museum.Main - === Инициализация приложения ===
+2025-12-04 22:20:48 [JavaFX-Launcher] INFO  kz.enu.museum.Main - JsonDataManager инициализирован
+2025-12-04 22:20:48 [JavaFX-Launcher] INFO  kz.enu.museum.Main - Репозитории инициализированы
+2025-12-04 22:20:48 [JavaFX-Launcher] INFO  kz.enu.museum.Main - Сервисы инициализированы
+2025-12-04 22:20:48 [JavaFX-Launcher] INFO  kz.enu.museum.Main - Загрузка данных...
+2025-12-04 22:20:48 [JavaFX-Launcher] INFO  kz.enu.museum.util.JsonDataManager - Загружено 3 категорий
+2025-12-04 22:20:48 [JavaFX-Launcher] INFO  kz.enu.museum.repository.CategoryRepository - Обновлена категория: Живопись
+2025-12-04 22:20:48 [JavaFX-Launcher] INFO  kz.enu.museum.repository.CategoryRepository - Обновлена категория: Скульптура
+2025-12-04 22:20:48 [JavaFX-Launcher] INFO  kz.enu.museum.repository.CategoryRepository - Обновлена категория: Артефакты
+2025-12-04 22:20:48 [JavaFX-Launcher] INFO  kz.enu.museum.Main - Загружено 3 категорий
+2025-12-04 22:20:48 [JavaFX-Launcher] INFO  kz.enu.museum.util.JsonDataManager - Загружено 15 художников
+2025-12-04 22:20:48 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ArtistRepository - Обновлён художник: Леонардо да Винчи
+2025-12-04 22:20:48 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ArtistRepository - Обновлён художник: Пабло Пикассо
+2025-12-04 22:20:48 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ArtistRepository - Обновлён художник: Клод Моне
+2025-12-04 22:20:48 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ArtistRepository - Обновлён художник: Винсент ван Гог
+2025-12-04 22:20:48 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ArtistRepository - Обновлён художник: Микеланджело Буонарроти
+2025-12-04 22:20:48 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ArtistRepository - Обновлён художник: Рембрандт ван Рейн
+2025-12-04 22:20:48 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ArtistRepository - Обновлён художник: Сальвадор Дали
+2025-12-04 22:20:48 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ArtistRepository - Обновлён художник: Огюст Роден
+2025-12-04 22:20:48 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ArtistRepository - Обновлён художник: Рафаэль Санти
+2025-12-04 22:20:48 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ArtistRepository - Обновлён художник: Иван Айвазовский
+2025-12-04 22:20:48 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ArtistRepository - Обновлён художник: Густав Климт
+2025-12-04 22:20:48 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ArtistRepository - Обновлён художник: Эдвард Мунк
+2025-12-04 22:20:48 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ArtistRepository - Обновлён художник: Фрида Кало
+2025-12-04 22:20:48 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ArtistRepository - Обновлён художник: Казимир Малевич
+2025-12-04 22:20:48 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ArtistRepository - Обновлён художник: Донателло
+2025-12-04 22:20:48 [JavaFX-Launcher] INFO  kz.enu.museum.Main - Загружено 15 художников
+2025-12-04 22:20:48 [JavaFX-Launcher] INFO  kz.enu.museum.util.JsonDataManager - Загружено 27 экспонатов
+2025-12-04 22:20:48 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Звёздная ночь (ID: 1)
+2025-12-04 22:20:48 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Водяные лилии (ID: 2)
+2025-12-04 22:20:48 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Герника (ID: 3)
+2025-12-04 22:20:48 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Мона Лиза (ID: 4)
+2025-12-04 22:20:48 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Подсолнухи (ID: 5)
+2025-12-04 22:20:48 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Ночной дозор (ID: 6)
+2025-12-04 22:20:48 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Постоянство памяти (ID: 7)
+2025-12-04 22:20:48 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Девятый вал (ID: 8)
+2025-12-04 22:20:48 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Поцелуй (ID: 9)
+2025-12-04 22:20:48 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Крик (ID: 10)
+2025-12-04 22:20:48 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Чёрный квадрат (ID: 11)
+2025-12-04 22:20:48 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Две Фриды (ID: 12)
+2025-12-04 22:20:48 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Давид (ID: 13)
+2025-12-04 22:20:48 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Мыслитель (ID: 14)
+2025-12-04 22:20:48 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Пьета (ID: 15)
+2025-12-04 22:20:48 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Поцелуй (ID: 16)
+2025-12-04 22:20:48 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Давид (ID: 17)
+2025-12-04 22:20:48 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Врата ада (ID: 18)
+2025-12-04 22:20:48 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Египетский саркофаг (ID: 19)
+2025-12-04 22:20:48 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Греческая амфора (ID: 20)
+2025-12-04 22:20:48 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Римская монета императора Траяна (ID: 21)
+2025-12-04 22:20:48 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Китайская ваза династии Мин (ID: 22)
+2025-12-04 22:20:48 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Японский самурайский меч катана (ID: 23)
+2025-12-04 22:20:48 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Месопотамская клинописная табличка (ID: 24)
+2025-12-04 22:20:48 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Маска Тутанхамона (копия) (ID: 25)
+2025-12-04 22:20:48 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Скифский золотой гребень (ID: 26)
+2025-12-04 22:20:48 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Персидский ковёр Исфахан (ID: 27)
+2025-12-04 22:20:48 [JavaFX-Launcher] INFO  kz.enu.museum.Main - Загружено 27 экспонатов
+2025-12-04 22:20:48 [JavaFX-Launcher] INFO  kz.enu.museum.Main - Сервисы поиска и отчётов инициализированы
+2025-12-04 22:20:48 [JavaFX-Launcher] INFO  kz.enu.museum.Main - === Инициализация завершена успешно ===
+2025-12-04 22:20:48 [JavaFX Application Thread] INFO  kz.enu.museum.Main - Запуск GUI...
+2025-12-04 22:20:49 [JavaFX Application Thread] DEBUG kz.enu.museum.controller.MainController - Инициализация MainController
+2025-12-04 22:20:49 [JavaFX Application Thread] INFO  kz.enu.museum.controller.MainController - MainController инициализирован с сервисами
+2025-12-04 22:20:49 [JavaFX Application Thread] DEBUG kz.enu.museum.controller.MainController - Инициализация таблицы экспонатов
+2025-12-04 22:20:49 [JavaFX Application Thread] DEBUG kz.enu.museum.controller.MainController - Инициализация дерева категорий
+2025-12-04 22:20:49 [JavaFX Application Thread] DEBUG kz.enu.museum.controller.MainController - Инициализация фильтров
+2025-12-04 22:20:49 [JavaFX Application Thread] DEBUG kz.enu.museum.controller.MainController - Инициализация обработчиков событий
+2025-12-04 22:20:52 [JavaFX Application Thread] INFO  kz.enu.museum.Main - GUI запущен успешно
+2025-12-04 22:22:44 [JavaFX Application Thread] INFO  kz.enu.museum.controller.MainController - Просмотр экспоната: Звёздная ночь
+2025-12-04 22:22:44 [Thread-3] INFO  kz.enu.museum.controller.MainController - Загрузка изображения: https://upload.wikimedia.org/wikipedia/commons/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg
+2025-12-04 22:22:46 [Thread-3] DEBUG kz.enu.museum.controller.MainController - Image HTTP response code: 200 for URL: https://upload.wikimedia.org/wikipedia/commons/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg
+2025-12-04 22:22:46 [JavaFX Application Thread] ERROR kz.enu.museum.controller.MainController - Image object reported error for URL: https://upload.wikimedia.org/wikipedia/commons/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg, exception=java.io.IOException: java.lang.OutOfMemoryError: Java heap space
+2025-12-04 22:26:09 [JavaFX Application Thread] INFO  kz.enu.museum.Main - === Выход из приложения ===
+2025-12-04 22:26:09 [JavaFX Application Thread] INFO  kz.enu.museum.util.JsonDataManager - Сохранено 27 экспонатов
+2025-12-04 22:26:09 [JavaFX Application Thread] INFO  kz.enu.museum.util.JsonDataManager - Сохранено 3 категорий
+2025-12-04 22:26:09 [JavaFX Application Thread] INFO  kz.enu.museum.util.JsonDataManager - Сохранено 15 художников
+2025-12-04 22:26:09 [JavaFX Application Thread] INFO  kz.enu.museum.Main - Данные сохранены успешно
+2025-12-04 22:26:09 [JavaFX Application Thread] INFO  kz.enu.museum.Main - === Приложение завершено ===
+2025-12-04 22:26:39 [main] INFO  kz.enu.museum.Main - Запуск приложения 'Каталог музея'
+2025-12-04 22:26:39 [JavaFX-Launcher] INFO  kz.enu.museum.Main - === Инициализация приложения ===
+2025-12-04 22:26:39 [JavaFX-Launcher] INFO  kz.enu.museum.Main - JsonDataManager инициализирован
+2025-12-04 22:26:39 [JavaFX-Launcher] INFO  kz.enu.museum.Main - Репозитории инициализированы
+2025-12-04 22:26:39 [JavaFX-Launcher] INFO  kz.enu.museum.Main - Сервисы инициализированы
+2025-12-04 22:26:39 [JavaFX-Launcher] INFO  kz.enu.museum.Main - Загрузка данных...
+2025-12-04 22:26:39 [JavaFX-Launcher] INFO  kz.enu.museum.util.JsonDataManager - Загружено 3 категорий
+2025-12-04 22:26:39 [JavaFX-Launcher] INFO  kz.enu.museum.repository.CategoryRepository - Обновлена категория: Живопись
+2025-12-04 22:26:39 [JavaFX-Launcher] INFO  kz.enu.museum.repository.CategoryRepository - Обновлена категория: Скульптура
+2025-12-04 22:26:39 [JavaFX-Launcher] INFO  kz.enu.museum.repository.CategoryRepository - Обновлена категория: Артефакты
+2025-12-04 22:26:39 [JavaFX-Launcher] INFO  kz.enu.museum.Main - Загружено 3 категорий
+2025-12-04 22:26:39 [JavaFX-Launcher] INFO  kz.enu.museum.util.JsonDataManager - Загружено 15 художников
+2025-12-04 22:26:39 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ArtistRepository - Обновлён художник: Леонардо да Винчи
+2025-12-04 22:26:39 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ArtistRepository - Обновлён художник: Пабло Пикассо
+2025-12-04 22:26:39 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ArtistRepository - Обновлён художник: Клод Моне
+2025-12-04 22:26:39 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ArtistRepository - Обновлён художник: Винсент ван Гог
+2025-12-04 22:26:39 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ArtistRepository - Обновлён художник: Микеланджело Буонарроти
+2025-12-04 22:26:39 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ArtistRepository - Обновлён художник: Рембрандт ван Рейн
+2025-12-04 22:26:39 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ArtistRepository - Обновлён художник: Сальвадор Дали
+2025-12-04 22:26:39 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ArtistRepository - Обновлён художник: Огюст Роден
+2025-12-04 22:26:39 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ArtistRepository - Обновлён художник: Рафаэль Санти
+2025-12-04 22:26:39 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ArtistRepository - Обновлён художник: Иван Айвазовский
+2025-12-04 22:26:39 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ArtistRepository - Обновлён художник: Густав Климт
+2025-12-04 22:26:39 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ArtistRepository - Обновлён художник: Эдвард Мунк
+2025-12-04 22:26:39 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ArtistRepository - Обновлён художник: Фрида Кало
+2025-12-04 22:26:39 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ArtistRepository - Обновлён художник: Казимир Малевич
+2025-12-04 22:26:39 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ArtistRepository - Обновлён художник: Донателло
+2025-12-04 22:26:39 [JavaFX-Launcher] INFO  kz.enu.museum.Main - Загружено 15 художников
+2025-12-04 22:26:39 [JavaFX-Launcher] INFO  kz.enu.museum.util.JsonDataManager - Загружено 27 экспонатов
+2025-12-04 22:26:39 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Звёздная ночь (ID: 1)
+2025-12-04 22:26:39 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Водяные лилии (ID: 2)
+2025-12-04 22:26:39 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Герника (ID: 3)
+2025-12-04 22:26:39 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Мона Лиза (ID: 4)
+2025-12-04 22:26:39 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Подсолнухи (ID: 5)
+2025-12-04 22:26:39 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Ночной дозор (ID: 6)
+2025-12-04 22:26:39 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Постоянство памяти (ID: 7)
+2025-12-04 22:26:39 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Девятый вал (ID: 8)
+2025-12-04 22:26:39 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Поцелуй (ID: 9)
+2025-12-04 22:26:39 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Крик (ID: 10)
+2025-12-04 22:26:39 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Чёрный квадрат (ID: 11)
+2025-12-04 22:26:39 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Две Фриды (ID: 12)
+2025-12-04 22:26:39 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Давид (ID: 13)
+2025-12-04 22:26:39 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Мыслитель (ID: 14)
+2025-12-04 22:26:39 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Пьета (ID: 15)
+2025-12-04 22:26:39 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Поцелуй (ID: 16)
+2025-12-04 22:26:39 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Давид (ID: 17)
+2025-12-04 22:26:39 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Врата ада (ID: 18)
+2025-12-04 22:26:39 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Египетский саркофаг (ID: 19)
+2025-12-04 22:26:39 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Греческая амфора (ID: 20)
+2025-12-04 22:26:39 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Римская монета императора Траяна (ID: 21)
+2025-12-04 22:26:39 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Китайская ваза династии Мин (ID: 22)
+2025-12-04 22:26:39 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Японский самурайский меч катана (ID: 23)
+2025-12-04 22:26:39 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Месопотамская клинописная табличка (ID: 24)
+2025-12-04 22:26:39 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Маска Тутанхамона (копия) (ID: 25)
+2025-12-04 22:26:39 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Скифский золотой гребень (ID: 26)
+2025-12-04 22:26:39 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Персидский ковёр Исфахан (ID: 27)
+2025-12-04 22:26:39 [JavaFX-Launcher] INFO  kz.enu.museum.Main - Загружено 27 экспонатов
+2025-12-04 22:26:39 [JavaFX-Launcher] INFO  kz.enu.museum.Main - Сервисы поиска и отчётов инициализированы
+2025-12-04 22:26:39 [JavaFX-Launcher] INFO  kz.enu.museum.Main - === Инициализация завершена успешно ===
+2025-12-04 22:26:39 [JavaFX Application Thread] INFO  kz.enu.museum.Main - Запуск GUI...
+2025-12-04 22:26:40 [JavaFX Application Thread] DEBUG kz.enu.museum.controller.MainController - Инициализация MainController
+2025-12-04 22:26:40 [JavaFX Application Thread] INFO  kz.enu.museum.controller.MainController - MainController инициализирован с сервисами
+2025-12-04 22:26:40 [JavaFX Application Thread] DEBUG kz.enu.museum.controller.MainController - Инициализация таблицы экспонатов
+2025-12-04 22:26:40 [JavaFX Application Thread] DEBUG kz.enu.museum.controller.MainController - Инициализация дерева категорий
+2025-12-04 22:26:40 [JavaFX Application Thread] DEBUG kz.enu.museum.controller.MainController - Инициализация фильтров
+2025-12-04 22:26:40 [JavaFX Application Thread] DEBUG kz.enu.museum.controller.MainController - Инициализация обработчиков событий
+2025-12-04 22:26:43 [JavaFX Application Thread] INFO  kz.enu.museum.Main - GUI запущен успешно
+2025-12-04 22:26:46 [JavaFX Application Thread] INFO  kz.enu.museum.controller.MainController - Просмотр экспоната: Звёздная ночь
+2025-12-04 22:26:46 [Thread-3] INFO  kz.enu.museum.controller.MainController - Загрузка изображения: https://upload.wikimedia.org/wikipedia/commons/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg
+2025-12-04 22:26:48 [Thread-3] DEBUG kz.enu.museum.controller.MainController - Image probe HTTP response code: 200 for URL: https://upload.wikimedia.org/wikipedia/commons/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg, contentLength=215064763
+2025-12-04 22:26:48 [Thread-3] DEBUG kz.enu.museum.controller.MainController - Image HTTP response code: 200 for URL: https://upload.wikimedia.org/wikipedia/commons/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg (requestedWidth=1200)
+2025-12-04 22:27:07 [Thread-3] INFO  kz.enu.museum.controller.MainController - Успешно загружено изображение с шириной запроса=1200 для URL: https://upload.wikimedia.org/wikipedia/commons/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg
+2025-12-04 22:27:17 [JavaFX Application Thread] INFO  kz.enu.museum.Main - === Выход из приложения ===
+2025-12-04 22:27:17 [JavaFX Application Thread] INFO  kz.enu.museum.util.JsonDataManager - Сохранено 27 экспонатов
+2025-12-04 22:27:17 [JavaFX Application Thread] INFO  kz.enu.museum.util.JsonDataManager - Сохранено 3 категорий
+2025-12-04 22:27:17 [JavaFX Application Thread] INFO  kz.enu.museum.util.JsonDataManager - Сохранено 15 художников
+2025-12-04 22:27:17 [JavaFX Application Thread] INFO  kz.enu.museum.Main - Данные сохранены успешно
+2025-12-04 22:27:17 [JavaFX Application Thread] INFO  kz.enu.museum.Main - === Приложение завершено ===
+2025-12-04 22:27:24 [main] INFO  kz.enu.museum.Main - Запуск приложения 'Каталог музея'
+2025-12-04 22:27:24 [JavaFX-Launcher] INFO  kz.enu.museum.Main - === Инициализация приложения ===
+2025-12-04 22:27:24 [JavaFX-Launcher] INFO  kz.enu.museum.Main - JsonDataManager инициализирован
+2025-12-04 22:27:24 [JavaFX-Launcher] INFO  kz.enu.museum.Main - Репозитории инициализированы
+2025-12-04 22:27:24 [JavaFX-Launcher] INFO  kz.enu.museum.Main - Сервисы инициализированы
+2025-12-04 22:27:24 [JavaFX-Launcher] INFO  kz.enu.museum.Main - Загрузка данных...
+2025-12-04 22:27:24 [JavaFX-Launcher] INFO  kz.enu.museum.util.JsonDataManager - Загружено 3 категорий
+2025-12-04 22:27:24 [JavaFX-Launcher] INFO  kz.enu.museum.repository.CategoryRepository - Обновлена категория: Живопись
+2025-12-04 22:27:24 [JavaFX-Launcher] INFO  kz.enu.museum.repository.CategoryRepository - Обновлена категория: Скульптура
+2025-12-04 22:27:24 [JavaFX-Launcher] INFO  kz.enu.museum.repository.CategoryRepository - Обновлена категория: Артефакты
+2025-12-04 22:27:24 [JavaFX-Launcher] INFO  kz.enu.museum.Main - Загружено 3 категорий
+2025-12-04 22:27:24 [JavaFX-Launcher] INFO  kz.enu.museum.util.JsonDataManager - Загружено 15 художников
+2025-12-04 22:27:24 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ArtistRepository - Обновлён художник: Леонардо да Винчи
+2025-12-04 22:27:24 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ArtistRepository - Обновлён художник: Пабло Пикассо
+2025-12-04 22:27:24 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ArtistRepository - Обновлён художник: Клод Моне
+2025-12-04 22:27:24 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ArtistRepository - Обновлён художник: Винсент ван Гог
+2025-12-04 22:27:24 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ArtistRepository - Обновлён художник: Микеланджело Буонарроти
+2025-12-04 22:27:24 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ArtistRepository - Обновлён художник: Рембрандт ван Рейн
+2025-12-04 22:27:24 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ArtistRepository - Обновлён художник: Сальвадор Дали
+2025-12-04 22:27:24 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ArtistRepository - Обновлён художник: Огюст Роден
+2025-12-04 22:27:24 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ArtistRepository - Обновлён художник: Рафаэль Санти
+2025-12-04 22:27:24 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ArtistRepository - Обновлён художник: Иван Айвазовский
+2025-12-04 22:27:24 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ArtistRepository - Обновлён художник: Густав Климт
+2025-12-04 22:27:24 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ArtistRepository - Обновлён художник: Эдвард Мунк
+2025-12-04 22:27:24 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ArtistRepository - Обновлён художник: Фрида Кало
+2025-12-04 22:27:24 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ArtistRepository - Обновлён художник: Казимир Малевич
+2025-12-04 22:27:24 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ArtistRepository - Обновлён художник: Донателло
+2025-12-04 22:27:24 [JavaFX-Launcher] INFO  kz.enu.museum.Main - Загружено 15 художников
+2025-12-04 22:27:24 [JavaFX-Launcher] INFO  kz.enu.museum.util.JsonDataManager - Загружено 27 экспонатов
+2025-12-04 22:27:24 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Звёздная ночь (ID: 1)
+2025-12-04 22:27:24 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Водяные лилии (ID: 2)
+2025-12-04 22:27:24 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Герника (ID: 3)
+2025-12-04 22:27:24 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Мона Лиза (ID: 4)
+2025-12-04 22:27:24 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Подсолнухи (ID: 5)
+2025-12-04 22:27:24 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Ночной дозор (ID: 6)
+2025-12-04 22:27:24 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Постоянство памяти (ID: 7)
+2025-12-04 22:27:24 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Девятый вал (ID: 8)
+2025-12-04 22:27:24 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Поцелуй (ID: 9)
+2025-12-04 22:27:24 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Крик (ID: 10)
+2025-12-04 22:27:24 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Чёрный квадрат (ID: 11)
+2025-12-04 22:27:24 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Две Фриды (ID: 12)
+2025-12-04 22:27:24 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Давид (ID: 13)
+2025-12-04 22:27:24 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Мыслитель (ID: 14)
+2025-12-04 22:27:24 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Пьета (ID: 15)
+2025-12-04 22:27:24 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Поцелуй (ID: 16)
+2025-12-04 22:27:24 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Давид (ID: 17)
+2025-12-04 22:27:24 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Врата ада (ID: 18)
+2025-12-04 22:27:24 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Египетский саркофаг (ID: 19)
+2025-12-04 22:27:24 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Греческая амфора (ID: 20)
+2025-12-04 22:27:24 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Римская монета императора Траяна (ID: 21)
+2025-12-04 22:27:24 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Китайская ваза династии Мин (ID: 22)
+2025-12-04 22:27:24 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Японский самурайский меч катана (ID: 23)
+2025-12-04 22:27:24 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Месопотамская клинописная табличка (ID: 24)
+2025-12-04 22:27:24 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Маска Тутанхамона (копия) (ID: 25)
+2025-12-04 22:27:24 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Скифский золотой гребень (ID: 26)
+2025-12-04 22:27:24 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Персидский ковёр Исфахан (ID: 27)
+2025-12-04 22:27:24 [JavaFX-Launcher] INFO  kz.enu.museum.Main - Загружено 27 экспонатов
+2025-12-04 22:27:24 [JavaFX-Launcher] INFO  kz.enu.museum.Main - Сервисы поиска и отчётов инициализированы
+2025-12-04 22:27:24 [JavaFX-Launcher] INFO  kz.enu.museum.Main - === Инициализация завершена успешно ===
+2025-12-04 22:27:24 [JavaFX Application Thread] INFO  kz.enu.museum.Main - Запуск GUI...
+2025-12-04 22:27:25 [JavaFX Application Thread] DEBUG kz.enu.museum.controller.MainController - Инициализация MainController
+2025-12-04 22:27:25 [JavaFX Application Thread] INFO  kz.enu.museum.controller.MainController - MainController инициализирован с сервисами
+2025-12-04 22:27:25 [JavaFX Application Thread] DEBUG kz.enu.museum.controller.MainController - Инициализация таблицы экспонатов
+2025-12-04 22:27:25 [JavaFX Application Thread] DEBUG kz.enu.museum.controller.MainController - Инициализация дерева категорий
+2025-12-04 22:27:25 [JavaFX Application Thread] DEBUG kz.enu.museum.controller.MainController - Инициализация фильтров
+2025-12-04 22:27:25 [JavaFX Application Thread] DEBUG kz.enu.museum.controller.MainController - Инициализация обработчиков событий
+2025-12-04 22:27:27 [JavaFX Application Thread] INFO  kz.enu.museum.Main - GUI запущен успешно
+2025-12-04 22:27:33 [JavaFX Application Thread] INFO  kz.enu.museum.controller.MainController - Просмотр экспоната: Мона Лиза
+2025-12-04 22:27:33 [Thread-3] INFO  kz.enu.museum.controller.MainController - Загрузка изображения: https://upload.wikimedia.org/wikipedia/commons/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg
+2025-12-04 22:27:35 [Thread-3] DEBUG kz.enu.museum.controller.MainController - Image probe HTTP response code: 200 for URL: https://upload.wikimedia.org/wikipedia/commons/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg, contentLength=94310471
+2025-12-04 22:27:35 [Thread-3] DEBUG kz.enu.museum.controller.MainController - Image HTTP response code: 200 for URL: https://upload.wikimedia.org/wikipedia/commons/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg (requestedWidth=1200)
+2025-12-04 22:27:53 [Thread-3] INFO  kz.enu.museum.controller.MainController - Успешно загружено изображение с шириной запроса=1200 для URL: https://upload.wikimedia.org/wikipedia/commons/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg
+2025-12-04 22:28:03 [JavaFX Application Thread] INFO  kz.enu.museum.controller.MainController - Просмотр экспоната: Подсолнухи
+2025-12-04 22:28:03 [Thread-4] INFO  kz.enu.museum.controller.MainController - Загрузка изображения: https://upload.wikimedia.org/wikipedia/commons/4/46/Vincent_Willem_van_Gogh_127.jpg
+2025-12-04 22:28:03 [Thread-4] DEBUG kz.enu.museum.controller.MainController - Image probe HTTP response code: 200 for URL: https://upload.wikimedia.org/wikipedia/commons/4/46/Vincent_Willem_van_Gogh_127.jpg, contentLength=11802387
+2025-12-04 22:28:04 [Thread-4] DEBUG kz.enu.museum.controller.MainController - Image HTTP response code: 200 for URL: https://upload.wikimedia.org/wikipedia/commons/4/46/Vincent_Willem_van_Gogh_127.jpg (requestedWidth=1200)
+2025-12-04 22:28:17 [Thread-4] INFO  kz.enu.museum.controller.MainController - Успешно загружено изображение с шириной запроса=1200 для URL: https://upload.wikimedia.org/wikipedia/commons/4/46/Vincent_Willem_van_Gogh_127.jpg
+2025-12-04 22:28:42 [JavaFX Application Thread] INFO  kz.enu.museum.controller.MainController - Редактирование экспоната: Герника
+2025-12-04 22:28:45 [JavaFX Application Thread] INFO  kz.enu.museum.controller.MainController - Просмотр экспоната: Герника
+2025-12-04 22:28:45 [Thread-5] INFO  kz.enu.museum.controller.MainController - Загрузка изображения: https://upload.wikimedia.org/wikipedia/commons/6/6f/Mural_del_Gernika.jpg
+2025-12-04 22:28:46 [Thread-5] DEBUG kz.enu.museum.controller.MainController - Image probe HTTP response code: 200 for URL: https://upload.wikimedia.org/wikipedia/commons/6/6f/Mural_del_Gernika.jpg, contentLength=198828
+2025-12-04 22:28:46 [Thread-5] DEBUG kz.enu.museum.controller.MainController - Image HTTP response code: 200 for URL: https://upload.wikimedia.org/wikipedia/commons/6/6f/Mural_del_Gernika.jpg (requestedWidth=1200)
+2025-12-04 22:28:47 [Thread-5] INFO  kz.enu.museum.controller.MainController - Успешно загружено изображение с шириной запроса=1200 для URL: https://upload.wikimedia.org/wikipedia/commons/6/6f/Mural_del_Gernika.jpg
+2025-12-04 22:30:45 [JavaFX Application Thread] INFO  kz.enu.museum.Main - === Выход из приложения ===
+2025-12-04 22:30:45 [JavaFX Application Thread] INFO  kz.enu.museum.util.JsonDataManager - Сохранено 27 экспонатов
+2025-12-04 22:30:46 [JavaFX Application Thread] INFO  kz.enu.museum.util.JsonDataManager - Сохранено 3 категорий
+2025-12-04 22:30:46 [JavaFX Application Thread] INFO  kz.enu.museum.util.JsonDataManager - Сохранено 15 художников
+2025-12-04 22:30:46 [JavaFX Application Thread] INFO  kz.enu.museum.Main - Данные сохранены успешно
+2025-12-04 22:30:46 [JavaFX Application Thread] INFO  kz.enu.museum.Main - === Приложение завершено ===
+2025-12-04 22:37:41 [main] INFO  kz.enu.museum.Main - Запуск приложения 'Каталог музея'
+2025-12-04 22:37:41 [JavaFX-Launcher] INFO  kz.enu.museum.Main - === Инициализация приложения ===
+2025-12-04 22:37:41 [JavaFX-Launcher] ERROR kz.enu.museum.Main - Ошибка при инициализации приложения
+kz.enu.museum.exception.DataLoadException: Не удалось инициализировать H2: No suitable driver found for jdbc:h2:./data/museum-db;AUTO_SERVER=TRUE
+	at kz.enu.museum.util.H2DataManager.<init>(H2DataManager.java:35) ~[classes/:?]
+	at kz.enu.museum.Main.init(Main.java:56) [classes/:?]
+	at javafx.graphics/com.sun.javafx.application.LauncherImpl.launchApplication1(LauncherImpl.java:823) [javafx.graphics:?]
+	at javafx.graphics/com.sun.javafx.application.LauncherImpl.lambda$launchApplication$0(LauncherImpl.java:202) [javafx.graphics:?]
+	at java.base/java.lang.Thread.run(Thread.java:1474) [?:?]
+Caused by: java.sql.SQLException: No suitable driver found for jdbc:h2:./data/museum-db;AUTO_SERVER=TRUE
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:638) ~[java.sql:?]
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:199) ~[java.sql:?]
+	at kz.enu.museum.util.H2DataManager.getConnection(H2DataManager.java:40) ~[classes/:?]
+	at kz.enu.museum.util.H2DataManager.initDatabase(H2DataManager.java:44) ~[classes/:?]
+	at kz.enu.museum.util.H2DataManager.<init>(H2DataManager.java:32) ~[classes/:?]
+	... 4 more
+2025-12-04 22:38:44 [main] INFO  kz.enu.museum.Main - Запуск приложения 'Каталог музея'
+2025-12-04 22:38:44 [JavaFX-Launcher] INFO  kz.enu.museum.Main - === Инициализация приложения ===
+2025-12-04 22:38:44 [JavaFX-Launcher] ERROR kz.enu.museum.Main - Ошибка при инициализации приложения
+kz.enu.museum.exception.DataLoadException: H2 JDBC driver not found on classpath. Make sure H2 dependency is added and project dependencies are resolved (run 'mvn clean package' or refresh IDE Maven).
+	at kz.enu.museum.util.H2DataManager.<init>(H2DataManager.java:35) ~[classes/:?]
+	at kz.enu.museum.Main.init(Main.java:56) [classes/:?]
+	at javafx.graphics/com.sun.javafx.application.LauncherImpl.launchApplication1(LauncherImpl.java:823) [javafx.graphics:?]
+	at javafx.graphics/com.sun.javafx.application.LauncherImpl.lambda$launchApplication$0(LauncherImpl.java:202) [javafx.graphics:?]
+	at java.base/java.lang.Thread.run(Thread.java:1474) [?:?]
+Caused by: java.lang.ClassNotFoundException: org.h2.Driver
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:580) ~[?:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490) ~[?:?]
+	at java.base/java.lang.Class.forName0(Native Method) ~[?:?]
+	at java.base/java.lang.Class.forName(Class.java:467) ~[?:?]
+	at java.base/java.lang.Class.forName(Class.java:458) ~[?:?]
+	at kz.enu.museum.util.H2DataManager.<init>(H2DataManager.java:33) ~[classes/:?]
+	... 4 more
+2025-12-04 22:39:23 [main] INFO  kz.enu.museum.Main - Запуск приложения 'Каталог музея'
+2025-12-04 22:39:23 [JavaFX-Launcher] INFO  kz.enu.museum.Main - === Инициализация приложения ===
+2025-12-04 22:39:23 [JavaFX-Launcher] ERROR kz.enu.museum.Main - Ошибка при инициализации приложения
+kz.enu.museum.exception.DataLoadException: H2 JDBC driver not found on classpath. Make sure H2 dependency is added and project dependencies are resolved (run 'mvn clean package' or refresh IDE Maven).
+	at kz.enu.museum.util.H2DataManager.<init>(H2DataManager.java:35) ~[classes/:?]
+	at kz.enu.museum.Main.init(Main.java:56) [classes/:?]
+	at javafx.graphics/com.sun.javafx.application.LauncherImpl.launchApplication1(LauncherImpl.java:823) [javafx.graphics:?]
+	at javafx.graphics/com.sun.javafx.application.LauncherImpl.lambda$launchApplication$0(LauncherImpl.java:202) [javafx.graphics:?]
+	at java.base/java.lang.Thread.run(Thread.java:1474) [?:?]
+Caused by: java.lang.ClassNotFoundException: org.h2.Driver
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:580) ~[?:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490) ~[?:?]
+	at java.base/java.lang.Class.forName0(Native Method) ~[?:?]
+	at java.base/java.lang.Class.forName(Class.java:467) ~[?:?]
+	at java.base/java.lang.Class.forName(Class.java:458) ~[?:?]
+	at kz.enu.museum.util.H2DataManager.<init>(H2DataManager.java:33) ~[classes/:?]
+	... 4 more
+2025-12-04 22:40:29 [main] INFO  kz.enu.museum.Main - Запуск приложения 'Каталог музея'
+2025-12-04 22:40:29 [JavaFX-Launcher] INFO  kz.enu.museum.Main - === Инициализация приложения ===
+2025-12-04 22:40:29 [JavaFX-Launcher] WARN  kz.enu.museum.Main - H2 init failed, falling back to JSON data manager: H2 JDBC driver not found on classpath. Make sure H2 dependency is added and project dependencies are resolved (run 'mvn clean package' or refresh IDE Maven).
+2025-12-04 22:40:29 [JavaFX-Launcher] INFO  kz.enu.museum.Main - JsonDataManager инициализирован (fallback)
+2025-12-04 22:40:29 [JavaFX-Launcher] INFO  kz.enu.museum.Main - Репозитории инициализированы
+2025-12-04 22:40:29 [JavaFX-Launcher] INFO  kz.enu.museum.Main - Сервисы инициализированы
+2025-12-04 22:40:29 [JavaFX-Launcher] INFO  kz.enu.museum.Main - Загрузка данных...
+2025-12-04 22:40:29 [JavaFX-Launcher] INFO  kz.enu.museum.util.JsonDataManager - Загружено 3 категорий
+2025-12-04 22:40:29 [JavaFX-Launcher] INFO  kz.enu.museum.repository.CategoryRepository - Обновлена категория: Живопись
+2025-12-04 22:40:29 [JavaFX-Launcher] INFO  kz.enu.museum.repository.CategoryRepository - Обновлена категория: Скульптура
+2025-12-04 22:40:29 [JavaFX-Launcher] INFO  kz.enu.museum.repository.CategoryRepository - Обновлена категория: Артефакты
+2025-12-04 22:40:29 [JavaFX-Launcher] INFO  kz.enu.museum.Main - Загружено 3 категорий
+2025-12-04 22:40:29 [JavaFX-Launcher] INFO  kz.enu.museum.util.JsonDataManager - Загружено 15 художников
+2025-12-04 22:40:29 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ArtistRepository - Обновлён художник: Леонардо да Винчи
+2025-12-04 22:40:29 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ArtistRepository - Обновлён художник: Пабло Пикассо
+2025-12-04 22:40:29 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ArtistRepository - Обновлён художник: Клод Моне
+2025-12-04 22:40:29 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ArtistRepository - Обновлён художник: Винсент ван Гог
+2025-12-04 22:40:29 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ArtistRepository - Обновлён художник: Микеланджело Буонарроти
+2025-12-04 22:40:29 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ArtistRepository - Обновлён художник: Рембрандт ван Рейн
+2025-12-04 22:40:29 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ArtistRepository - Обновлён художник: Сальвадор Дали
+2025-12-04 22:40:29 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ArtistRepository - Обновлён художник: Огюст Роден
+2025-12-04 22:40:29 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ArtistRepository - Обновлён художник: Рафаэль Санти
+2025-12-04 22:40:29 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ArtistRepository - Обновлён художник: Иван Айвазовский
+2025-12-04 22:40:29 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ArtistRepository - Обновлён художник: Густав Климт
+2025-12-04 22:40:29 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ArtistRepository - Обновлён художник: Эдвард Мунк
+2025-12-04 22:40:29 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ArtistRepository - Обновлён художник: Фрида Кало
+2025-12-04 22:40:29 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ArtistRepository - Обновлён художник: Казимир Малевич
+2025-12-04 22:40:29 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ArtistRepository - Обновлён художник: Донателло
+2025-12-04 22:40:29 [JavaFX-Launcher] INFO  kz.enu.museum.Main - Загружено 15 художников
+2025-12-04 22:40:29 [JavaFX-Launcher] INFO  kz.enu.museum.util.JsonDataManager - Загружено 27 экспонатов
+2025-12-04 22:40:29 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Звёздная ночь (ID: 1)
+2025-12-04 22:40:29 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Водяные лилии (ID: 2)
+2025-12-04 22:40:29 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Герника (ID: 3)
+2025-12-04 22:40:29 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Мона Лиза (ID: 4)
+2025-12-04 22:40:29 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Подсолнухи (ID: 5)
+2025-12-04 22:40:29 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Ночной дозор (ID: 6)
+2025-12-04 22:40:29 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Постоянство памяти (ID: 7)
+2025-12-04 22:40:29 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Девятый вал (ID: 8)
+2025-12-04 22:40:29 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Поцелуй (ID: 9)
+2025-12-04 22:40:29 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Крик (ID: 10)
+2025-12-04 22:40:29 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Чёрный квадрат (ID: 11)
+2025-12-04 22:40:29 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Две Фриды (ID: 12)
+2025-12-04 22:40:29 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Давид (ID: 13)
+2025-12-04 22:40:29 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Мыслитель (ID: 14)
+2025-12-04 22:40:29 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Пьета (ID: 15)
+2025-12-04 22:40:29 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Поцелуй (ID: 16)
+2025-12-04 22:40:29 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Давид (ID: 17)
+2025-12-04 22:40:29 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Врата ада (ID: 18)
+2025-12-04 22:40:29 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Египетский саркофаг (ID: 19)
+2025-12-04 22:40:29 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Греческая амфора (ID: 20)
+2025-12-04 22:40:29 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Римская монета императора Траяна (ID: 21)
+2025-12-04 22:40:29 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Китайская ваза династии Мин (ID: 22)
+2025-12-04 22:40:29 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Японский самурайский меч катана (ID: 23)
+2025-12-04 22:40:29 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Месопотамская клинописная табличка (ID: 24)
+2025-12-04 22:40:29 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Маска Тутанхамона (копия) (ID: 25)
+2025-12-04 22:40:29 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Скифский золотой гребень (ID: 26)
+2025-12-04 22:40:29 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Персидский ковёр Исфахан (ID: 27)
+2025-12-04 22:40:29 [JavaFX-Launcher] INFO  kz.enu.museum.Main - Загружено 27 экспонатов
+2025-12-04 22:40:29 [JavaFX-Launcher] INFO  kz.enu.museum.Main - Сервисы поиска и отчётов инициализированы
+2025-12-04 22:40:29 [JavaFX-Launcher] INFO  kz.enu.museum.Main - === Инициализация завершена успешно ===
+2025-12-04 22:40:29 [JavaFX Application Thread] INFO  kz.enu.museum.Main - Запуск GUI...
+2025-12-04 22:40:30 [JavaFX Application Thread] DEBUG kz.enu.museum.controller.MainController - Инициализация MainController
+2025-12-04 22:40:30 [JavaFX Application Thread] INFO  kz.enu.museum.controller.MainController - MainController инициализирован с сервисами
+2025-12-04 22:40:30 [JavaFX Application Thread] DEBUG kz.enu.museum.controller.MainController - Инициализация таблицы экспонатов
+2025-12-04 22:40:30 [JavaFX Application Thread] DEBUG kz.enu.museum.controller.MainController - Инициализация дерева категорий
+2025-12-04 22:40:30 [JavaFX Application Thread] DEBUG kz.enu.museum.controller.MainController - Инициализация фильтров
+2025-12-04 22:40:30 [JavaFX Application Thread] DEBUG kz.enu.museum.controller.MainController - Инициализация обработчиков событий
+2025-12-04 22:40:33 [JavaFX Application Thread] INFO  kz.enu.museum.Main - GUI запущен успешно
+2025-12-04 22:40:40 [JavaFX Application Thread] INFO  kz.enu.museum.Main - === Выход из приложения ===
+2025-12-04 22:40:40 [JavaFX Application Thread] INFO  kz.enu.museum.util.JsonDataManager - Сохранено 27 экспонатов
+2025-12-04 22:40:40 [JavaFX Application Thread] INFO  kz.enu.museum.util.JsonDataManager - Сохранено 3 категорий
+2025-12-04 22:40:40 [JavaFX Application Thread] INFO  kz.enu.museum.util.JsonDataManager - Сохранено 15 художников
+2025-12-04 22:40:40 [JavaFX Application Thread] INFO  kz.enu.museum.Main - Данные сохранены успешно
+2025-12-04 22:40:40 [JavaFX Application Thread] INFO  kz.enu.museum.Main - === Приложение завершено ===
+2025-12-04 22:42:07 [main] INFO  kz.enu.museum.Main - Запуск приложения 'Каталог музея'
+2025-12-04 22:42:07 [JavaFX-Launcher] INFO  kz.enu.museum.Main - === Инициализация приложения ===
+2025-12-04 22:42:07 [JavaFX-Launcher] WARN  kz.enu.museum.Main - H2 init failed, falling back to JSON data manager: H2 JDBC driver not found on classpath. Make sure H2 dependency is added and project dependencies are resolved (run 'mvn clean package' or refresh IDE Maven).
+2025-12-04 22:42:07 [JavaFX-Launcher] INFO  kz.enu.museum.Main - JsonDataManager инициализирован (fallback)
+2025-12-04 22:42:07 [JavaFX-Launcher] INFO  kz.enu.museum.Main - Репозитории инициализированы
+2025-12-04 22:42:07 [JavaFX-Launcher] INFO  kz.enu.museum.Main - Сервисы инициализированы
+2025-12-04 22:42:07 [JavaFX-Launcher] INFO  kz.enu.museum.Main - Загрузка данных...
+2025-12-04 22:42:07 [JavaFX-Launcher] INFO  kz.enu.museum.util.JsonDataManager - Загружено 3 категорий
+2025-12-04 22:42:07 [JavaFX-Launcher] INFO  kz.enu.museum.repository.CategoryRepository - Обновлена категория: Живопись
+2025-12-04 22:42:07 [JavaFX-Launcher] INFO  kz.enu.museum.repository.CategoryRepository - Обновлена категория: Скульптура
+2025-12-04 22:42:07 [JavaFX-Launcher] INFO  kz.enu.museum.repository.CategoryRepository - Обновлена категория: Артефакты
+2025-12-04 22:42:07 [JavaFX-Launcher] INFO  kz.enu.museum.Main - Загружено 3 категорий
+2025-12-04 22:42:07 [JavaFX-Launcher] INFO  kz.enu.museum.util.JsonDataManager - Загружено 15 художников
+2025-12-04 22:42:07 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ArtistRepository - Обновлён художник: Леонардо да Винчи
+2025-12-04 22:42:07 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ArtistRepository - Обновлён художник: Пабло Пикассо
+2025-12-04 22:42:07 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ArtistRepository - Обновлён художник: Клод Моне
+2025-12-04 22:42:07 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ArtistRepository - Обновлён художник: Винсент ван Гог
+2025-12-04 22:42:07 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ArtistRepository - Обновлён художник: Микеланджело Буонарроти
+2025-12-04 22:42:07 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ArtistRepository - Обновлён художник: Рембрандт ван Рейн
+2025-12-04 22:42:07 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ArtistRepository - Обновлён художник: Сальвадор Дали
+2025-12-04 22:42:07 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ArtistRepository - Обновлён художник: Огюст Роден
+2025-12-04 22:42:07 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ArtistRepository - Обновлён художник: Рафаэль Санти
+2025-12-04 22:42:07 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ArtistRepository - Обновлён художник: Иван Айвазовский
+2025-12-04 22:42:07 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ArtistRepository - Обновлён художник: Густав Климт
+2025-12-04 22:42:07 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ArtistRepository - Обновлён художник: Эдвард Мунк
+2025-12-04 22:42:07 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ArtistRepository - Обновлён художник: Фрида Кало
+2025-12-04 22:42:07 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ArtistRepository - Обновлён художник: Казимир Малевич
+2025-12-04 22:42:07 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ArtistRepository - Обновлён художник: Донателло
+2025-12-04 22:42:07 [JavaFX-Launcher] INFO  kz.enu.museum.Main - Загружено 15 художников
+2025-12-04 22:42:07 [JavaFX-Launcher] INFO  kz.enu.museum.util.JsonDataManager - Загружено 27 экспонатов
+2025-12-04 22:42:07 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Звёздная ночь (ID: 1)
+2025-12-04 22:42:07 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Водяные лилии (ID: 2)
+2025-12-04 22:42:07 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Герника (ID: 3)
+2025-12-04 22:42:07 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Мона Лиза (ID: 4)
+2025-12-04 22:42:07 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Подсолнухи (ID: 5)
+2025-12-04 22:42:07 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Ночной дозор (ID: 6)
+2025-12-04 22:42:07 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Постоянство памяти (ID: 7)
+2025-12-04 22:42:07 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Девятый вал (ID: 8)
+2025-12-04 22:42:07 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Поцелуй (ID: 9)
+2025-12-04 22:42:07 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Крик (ID: 10)
+2025-12-04 22:42:07 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Чёрный квадрат (ID: 11)
+2025-12-04 22:42:07 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Две Фриды (ID: 12)
+2025-12-04 22:42:07 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Давид (ID: 13)
+2025-12-04 22:42:07 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Мыслитель (ID: 14)
+2025-12-04 22:42:07 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Пьета (ID: 15)
+2025-12-04 22:42:07 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Поцелуй (ID: 16)
+2025-12-04 22:42:07 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Давид (ID: 17)
+2025-12-04 22:42:07 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Врата ада (ID: 18)
+2025-12-04 22:42:07 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Египетский саркофаг (ID: 19)
+2025-12-04 22:42:07 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Греческая амфора (ID: 20)
+2025-12-04 22:42:07 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Римская монета императора Траяна (ID: 21)
+2025-12-04 22:42:07 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Китайская ваза династии Мин (ID: 22)
+2025-12-04 22:42:07 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Японский самурайский меч катана (ID: 23)
+2025-12-04 22:42:07 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Месопотамская клинописная табличка (ID: 24)
+2025-12-04 22:42:07 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Маска Тутанхамона (копия) (ID: 25)
+2025-12-04 22:42:07 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Скифский золотой гребень (ID: 26)
+2025-12-04 22:42:07 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Персидский ковёр Исфахан (ID: 27)
+2025-12-04 22:42:07 [JavaFX-Launcher] INFO  kz.enu.museum.Main - Загружено 27 экспонатов
+2025-12-04 22:42:07 [JavaFX-Launcher] INFO  kz.enu.museum.Main - Сервисы поиска и отчётов инициализированы
+2025-12-04 22:42:07 [JavaFX-Launcher] INFO  kz.enu.museum.Main - === Инициализация завершена успешно ===
+2025-12-04 22:42:07 [JavaFX Application Thread] INFO  kz.enu.museum.Main - Запуск GUI...
+2025-12-04 22:42:07 [JavaFX Application Thread] DEBUG kz.enu.museum.controller.MainController - Инициализация MainController
+2025-12-04 22:42:07 [JavaFX Application Thread] INFO  kz.enu.museum.controller.MainController - MainController инициализирован с сервисами
+2025-12-04 22:42:07 [JavaFX Application Thread] DEBUG kz.enu.museum.controller.MainController - Инициализация таблицы экспонатов
+2025-12-04 22:42:07 [JavaFX Application Thread] DEBUG kz.enu.museum.controller.MainController - Инициализация дерева категорий
+2025-12-04 22:42:07 [JavaFX Application Thread] DEBUG kz.enu.museum.controller.MainController - Инициализация фильтров
+2025-12-04 22:42:07 [JavaFX Application Thread] DEBUG kz.enu.museum.controller.MainController - Инициализация обработчиков событий
+2025-12-04 22:42:09 [JavaFX Application Thread] INFO  kz.enu.museum.Main - GUI запущен успешно
+2025-12-04 22:42:13 [JavaFX Application Thread] INFO  kz.enu.museum.controller.MainController - Просмотр экспоната: Звёздная ночь
+2025-12-04 22:42:13 [Thread-3] INFO  kz.enu.museum.controller.MainController - Загрузка изображения: https://upload.wikimedia.org/wikipedia/commons/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg
+2025-12-04 22:42:15 [Thread-3] DEBUG kz.enu.museum.controller.MainController - Image probe HTTP response code: 200 for URL: https://upload.wikimedia.org/wikipedia/commons/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg, contentLength=215064763
+2025-12-04 22:42:17 [Thread-3] DEBUG kz.enu.museum.controller.MainController - Image HTTP response code: 200 for URL: https://upload.wikimedia.org/wikipedia/commons/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg (requestedWidth=1200)
+2025-12-04 22:42:30 [Thread-3] INFO  kz.enu.museum.controller.MainController - Успешно загружено изображение с шириной запроса=1200 для URL: https://upload.wikimedia.org/wikipedia/commons/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg
+2025-12-04 22:43:56 [JavaFX Application Thread] INFO  kz.enu.museum.Main - === Выход из приложения ===
+2025-12-04 22:43:56 [JavaFX Application Thread] INFO  kz.enu.museum.util.JsonDataManager - Сохранено 27 экспонатов
+2025-12-04 22:43:56 [JavaFX Application Thread] INFO  kz.enu.museum.util.JsonDataManager - Сохранено 3 категорий
+2025-12-04 22:43:56 [JavaFX Application Thread] INFO  kz.enu.museum.util.JsonDataManager - Сохранено 15 художников
+2025-12-04 22:43:56 [JavaFX Application Thread] INFO  kz.enu.museum.Main - Данные сохранены успешно
+2025-12-04 22:43:56 [JavaFX Application Thread] INFO  kz.enu.museum.Main - === Приложение завершено ===
+2025-12-05 16:23:23 [main] INFO  kz.enu.museum.Main - Запуск приложения 'Каталог музея'
+2025-12-05 16:23:23 [JavaFX-Launcher] INFO  kz.enu.museum.Main - === Инициализация приложения ===
+2025-12-05 16:23:23 [JavaFX-Launcher] WARN  kz.enu.museum.Main - H2 init failed, falling back to JSON data manager: H2 JDBC driver not found on classpath. Make sure H2 dependency is added and project dependencies are resolved (run 'mvn clean package' or refresh IDE Maven).
+2025-12-05 16:23:23 [JavaFX-Launcher] INFO  kz.enu.museum.Main - JsonDataManager инициализирован (fallback)
+2025-12-05 16:23:23 [JavaFX-Launcher] INFO  kz.enu.museum.Main - Репозитории инициализированы
+2025-12-05 16:23:23 [JavaFX-Launcher] INFO  kz.enu.museum.Main - Сервисы инициализированы
+2025-12-05 16:23:23 [JavaFX-Launcher] INFO  kz.enu.museum.Main - Загрузка данных...
+2025-12-05 16:23:23 [JavaFX-Launcher] INFO  kz.enu.museum.util.JsonDataManager - Загружено 3 категорий
+2025-12-05 16:23:23 [JavaFX-Launcher] INFO  kz.enu.museum.repository.CategoryRepository - Обновлена категория: Живопись
+2025-12-05 16:23:23 [JavaFX-Launcher] INFO  kz.enu.museum.repository.CategoryRepository - Обновлена категория: Скульптура
+2025-12-05 16:23:23 [JavaFX-Launcher] INFO  kz.enu.museum.repository.CategoryRepository - Обновлена категория: Артефакты
+2025-12-05 16:23:23 [JavaFX-Launcher] INFO  kz.enu.museum.Main - Загружено 3 категорий
+2025-12-05 16:23:23 [JavaFX-Launcher] INFO  kz.enu.museum.util.JsonDataManager - Загружено 15 художников
+2025-12-05 16:23:23 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ArtistRepository - Обновлён художник: Леонардо да Винчи
+2025-12-05 16:23:23 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ArtistRepository - Обновлён художник: Пабло Пикассо
+2025-12-05 16:23:23 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ArtistRepository - Обновлён художник: Клод Моне
+2025-12-05 16:23:23 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ArtistRepository - Обновлён художник: Винсент ван Гог
+2025-12-05 16:23:23 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ArtistRepository - Обновлён художник: Микеланджело Буонарроти
+2025-12-05 16:23:23 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ArtistRepository - Обновлён художник: Рембрандт ван Рейн
+2025-12-05 16:23:23 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ArtistRepository - Обновлён художник: Сальвадор Дали
+2025-12-05 16:23:23 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ArtistRepository - Обновлён художник: Огюст Роден
+2025-12-05 16:23:23 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ArtistRepository - Обновлён художник: Рафаэль Санти
+2025-12-05 16:23:23 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ArtistRepository - Обновлён художник: Иван Айвазовский
+2025-12-05 16:23:23 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ArtistRepository - Обновлён художник: Густав Климт
+2025-12-05 16:23:23 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ArtistRepository - Обновлён художник: Эдвард Мунк
+2025-12-05 16:23:23 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ArtistRepository - Обновлён художник: Фрида Кало
+2025-12-05 16:23:23 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ArtistRepository - Обновлён художник: Казимир Малевич
+2025-12-05 16:23:23 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ArtistRepository - Обновлён художник: Донателло
+2025-12-05 16:23:23 [JavaFX-Launcher] INFO  kz.enu.museum.Main - Загружено 15 художников
+2025-12-05 16:23:23 [JavaFX-Launcher] INFO  kz.enu.museum.util.JsonDataManager - Загружено 27 экспонатов
+2025-12-05 16:23:23 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Звёздная ночь (ID: 1)
+2025-12-05 16:23:23 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Водяные лилии (ID: 2)
+2025-12-05 16:23:23 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Герника (ID: 3)
+2025-12-05 16:23:23 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Мона Лиза (ID: 4)
+2025-12-05 16:23:23 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Подсолнухи (ID: 5)
+2025-12-05 16:23:23 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Ночной дозор (ID: 6)
+2025-12-05 16:23:23 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Постоянство памяти (ID: 7)
+2025-12-05 16:23:23 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Девятый вал (ID: 8)
+2025-12-05 16:23:23 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Поцелуй (ID: 9)
+2025-12-05 16:23:23 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Крик (ID: 10)
+2025-12-05 16:23:23 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Чёрный квадрат (ID: 11)
+2025-12-05 16:23:23 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Две Фриды (ID: 12)
+2025-12-05 16:23:23 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Давид (ID: 13)
+2025-12-05 16:23:23 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Мыслитель (ID: 14)
+2025-12-05 16:23:23 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Пьета (ID: 15)
+2025-12-05 16:23:23 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Поцелуй (ID: 16)
+2025-12-05 16:23:23 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Давид (ID: 17)
+2025-12-05 16:23:23 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Врата ада (ID: 18)
+2025-12-05 16:23:23 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Египетский саркофаг (ID: 19)
+2025-12-05 16:23:23 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Греческая амфора (ID: 20)
+2025-12-05 16:23:23 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Римская монета императора Траяна (ID: 21)
+2025-12-05 16:23:23 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Китайская ваза династии Мин (ID: 22)
+2025-12-05 16:23:23 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Японский самурайский меч катана (ID: 23)
+2025-12-05 16:23:23 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Месопотамская клинописная табличка (ID: 24)
+2025-12-05 16:23:23 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Маска Тутанхамона (копия) (ID: 25)
+2025-12-05 16:23:23 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Скифский золотой гребень (ID: 26)
+2025-12-05 16:23:23 [JavaFX-Launcher] INFO  kz.enu.museum.repository.ExhibitRepository - Обновлён экспонат: Персидский ковёр Исфахан (ID: 27)
+2025-12-05 16:23:23 [JavaFX-Launcher] INFO  kz.enu.museum.Main - Загружено 27 экспонатов
+2025-12-05 16:23:23 [JavaFX-Launcher] INFO  kz.enu.museum.Main - Сервисы поиска и отчётов инициализированы
+2025-12-05 16:23:23 [JavaFX-Launcher] INFO  kz.enu.museum.Main - === Инициализация завершена успешно ===
+2025-12-05 16:23:23 [JavaFX Application Thread] INFO  kz.enu.museum.Main - Запуск GUI...
+2025-12-05 16:23:24 [JavaFX Application Thread] DEBUG kz.enu.museum.controller.MainController - Инициализация MainController
+2025-12-05 16:23:24 [JavaFX Application Thread] INFO  kz.enu.museum.controller.MainController - MainController инициализирован с сервисами
+2025-12-05 16:23:24 [JavaFX Application Thread] DEBUG kz.enu.museum.controller.MainController - Инициализация таблицы экспонатов
+2025-12-05 16:23:24 [JavaFX Application Thread] DEBUG kz.enu.museum.controller.MainController - Инициализация дерева категорий
+2025-12-05 16:23:24 [JavaFX Application Thread] DEBUG kz.enu.museum.controller.MainController - Инициализация фильтров
+2025-12-05 16:23:24 [JavaFX Application Thread] DEBUG kz.enu.museum.controller.MainController - Инициализация обработчиков событий
+2025-12-05 16:23:26 [JavaFX Application Thread] INFO  kz.enu.museum.Main - GUI запущен успешно
+2025-12-05 16:23:34 [JavaFX Application Thread] INFO  kz.enu.museum.Main - === Выход из приложения ===
+2025-12-05 16:23:34 [JavaFX Application Thread] INFO  kz.enu.museum.util.JsonDataManager - Сохранено 27 экспонатов
+2025-12-05 16:23:34 [JavaFX Application Thread] INFO  kz.enu.museum.util.JsonDataManager - Сохранено 3 категорий
+2025-12-05 16:23:34 [JavaFX Application Thread] INFO  kz.enu.museum.util.JsonDataManager - Сохранено 15 художников
+2025-12-05 16:23:34 [JavaFX Application Thread] INFO  kz.enu.museum.Main - Данные сохранены успешно
+2025-12-05 16:23:34 [JavaFX Application Thread] INFO  kz.enu.museum.Main - === Приложение завершено ===

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="kz.enu.museum.controller.CategoryManagerController"
+            prefHeight="600" prefWidth="800">
+    
+    <top>
+        <VBox style="-fx-padding: 20; -fx-background-color: #1976D2;">
+            <Label text="📚 Управление категориями" 
+                   style="-fx-text-fill: white; -fx-font-size: 24px; -fx-font-weight: bold;"/>
+            <Label text="Создание и редактирование иерархии категорий" 
+                   style="-fx-text-fill: #BBDEFB; -fx-font-size: 14px;"/>
+        </VBox>
+    </top>
+    
+    <center>
+        <SplitPane dividerPositions="0.5">
+            <!-- Дерево категорий -->
+            <VBox spacing="10" style="-fx-padding: 15;">
+                <Label text="Иерархия категорий:" styleClass="label-subheader"/>
+                <ToolBar>
+                    <Button text="➕ Добавить" onAction="#handleAdd" styleClass="button-success"/>
+                    <Button text="✏️ Редактировать" onAction="#handleEdit"/>
+                    <Button text="🗑️ Удалить" onAction="#handleDelete" styleClass="button-danger"/>
+                    <Separator orientation="VERTICAL"/>
+                    <Button text="↓ Подкатегория" onAction="#handleAddSubcategory"/>
+                </ToolBar>
+                <TreeView fx:id="categoryTreeView" VBox.vgrow="ALWAYS"/>
+            </VBox>
+            
+            <!-- Форма редактирования -->
+            <VBox spacing="15" style="-fx-padding: 15;">
+                <Label text="Свойства категории:" styleClass="label-subheader"/>
+                
+                <GridPane hgap="10" vgap="12">
+                    <columnConstraints>
+                        <ColumnConstraints percentWidth="35"/>
+                        <ColumnConstraints percentWidth="65" hgrow="ALWAYS"/>
+                    </columnConstraints>
+                    
+                    <Label text="Название:*" GridPane.rowIndex="0"/>
+                    <TextField fx:id="nameField" promptText="Название категории" 
+                               GridPane.rowIndex="0" GridPane.columnIndex="1"/>
+                    
+                    <Label text="Код:*" GridPane.rowIndex="1"/>
+                    <TextField fx:id="codeField" promptText="Уникальный код" 
+                               GridPane.rowIndex="1" GridPane.columnIndex="1"/>
+                    
+                    <Label text="Описание:" GridPane.rowIndex="2"/>
+                    <TextArea fx:id="descriptionArea" promptText="Описание категории" 
+                              prefRowCount="3" GridPane.rowIndex="2" GridPane.columnIndex="1"/>
+                    
+                    <Label text="Родительская:" GridPane.rowIndex="3"/>
+                    <ComboBox fx:id="parentCombo" promptText="Выберите родительскую категорию" 
+                              GridPane.rowIndex="3" GridPane.columnIndex="1" maxWidth="Infinity"/>
+                </GridPane>
+                
+                <Separator/>
+                
+                <HBox spacing="10">
+                    <Button text="💾 Сохранить" onAction="#handleSave" styleClass="button-success" defaultButton="true"/>
+                    <Button text="🔄 Очистить" onAction="#handleClear" styleClass="button-outlined"/>
+                </HBox>
+                
+                <Region VBox.vgrow="ALWAYS"/>
+                
+                <VBox spacing="5" style="-fx-background-color: #FFF3E0; -fx-padding: 10; -fx-background-radius: 4;">
+                    <Label text="💡 Подсказка:" style="-fx-font-weight: bold; -fx-text-fill: #E65100;"/>
+                    <Label text="• Код должен быть уникальным" style="-fx-font-size: 12px;"/>
+                    <Label text="• Для создания подкатегории выберите родительскую" style="-fx-font-size: 12px;"/>
+                    <Label text="• Удаление категории удалит все подкатегории" style="-fx-font-size: 12px;"/>
+                </VBox>
+            </VBox>
+        </SplitPane>
+    </center>
+    
+    <bottom>
+        <HBox styleClass="status-bar" spacing="10">
+            <Label fx:id="statusLabel" text="Готово" HBox.hgrow="ALWAYS"/>
+            <Button text="Закрыть" onAction="#handleClose" styleClass="button-outlined"/>
+        </HBox>
+    </bottom>
+</BorderPane>

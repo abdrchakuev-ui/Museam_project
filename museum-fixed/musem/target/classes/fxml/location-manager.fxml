@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="kz.enu.museum.controller.LocationManagerController"
+            prefHeight="600" prefWidth="800">
+    
+    <top>
+        <VBox style="-fx-padding: 20; -fx-background-color: #1976D2;">
+            <Label text="🏛️ Управление залами" 
+                   style="-fx-text-fill: white; -fx-font-size: 24px; -fx-font-weight: bold;"/>
+            <Label text="Залы и помещения музея" 
+                   style="-fx-text-fill: #BBDEFB; -fx-font-size: 14px;"/>
+        </VBox>
+    </top>
+    
+    <center>
+        <SplitPane dividerPositions="0.5">
+            <!-- Список залов -->
+            <VBox spacing="10" style="-fx-padding: 15;">
+                <Label text="Залы музея:" styleClass="label-subheader"/>
+                
+                <ToolBar>
+                    <Button text="➕ Добавить" onAction="#handleAdd" styleClass="button-success"/>
+                    <Button text="✏️ Редактировать" onAction="#handleEdit"/>
+                    <Button text="🗑️ Удалить" onAction="#handleDelete" styleClass="button-danger"/>
+                </ToolBar>
+                
+                <TableView fx:id="locationTable" VBox.vgrow="ALWAYS">
+                    <columns>
+                        <TableColumn fx:id="idColumn" text="ID" prefWidth="50"/>
+                        <TableColumn fx:id="nameColumn" text="Название" prefWidth="150"/>
+                        <TableColumn fx:id="floorColumn" text="Этаж" prefWidth="70"/>
+                        <TableColumn fx:id="capacityColumn" text="Вместимость" prefWidth="100"/>
+                    </columns>
+                </TableView>
+            </VBox>
+            
+            <!-- Форма редактирования -->
+            <VBox spacing="15" style="-fx-padding: 15;">
+                <Label text="Информация о зале:" styleClass="label-subheader"/>
+                
+                <GridPane hgap="10" vgap="12">
+                    <columnConstraints>
+                        <ColumnConstraints percentWidth="35"/>
+                        <ColumnConstraints percentWidth="65" hgrow="ALWAYS"/>
+                    </columnConstraints>
+                    
+                    <Label text="Название:*" GridPane.rowIndex="0"/>
+                    <TextField fx:id="nameField" promptText="Название зала" 
+                               GridPane.rowIndex="0" GridPane.columnIndex="1"/>
+                    
+                    <Label text="Этаж:*" GridPane.rowIndex="1"/>
+                    <Spinner fx:id="floorSpinner" editable="true" 
+                             GridPane.rowIndex="1" GridPane.columnIndex="1"/>
+                    
+                    <Label text="Площадь (м²):" GridPane.rowIndex="2"/>
+                    <TextField fx:id="areaField" promptText="Площадь зала" 
+                               GridPane.rowIndex="2" GridPane.columnIndex="1"/>
+                    
+                    <Label text="Вместимость:" GridPane.rowIndex="3"/>
+                    <TextField fx:id="capacityField" promptText="Максимальное кол-во экспонатов" 
+                               GridPane.rowIndex="3" GridPane.columnIndex="1"/>
+                    
+                    <Label text="Описание:" GridPane.rowIndex="4"/>
+                    <TextArea fx:id="descriptionArea" promptText="Описание зала" 
+                              prefRowCount="5" GridPane.rowIndex="4" GridPane.columnIndex="1"/>
+                    
+                    <Label text="Особенности:" GridPane.rowIndex="5"/>
+                    <TextArea fx:id="featuresArea" promptText="Климат-контроль, освещение..." 
+                              prefRowCount="3" GridPane.rowIndex="5" GridPane.columnIndex="1"/>
+                </GridPane>
+                
+                <Separator/>
+                
+                <HBox spacing="10">
+                    <Button text="💾 Сохранить" onAction="#handleSave" styleClass="button-success" defaultButton="true"/>
+                    <Button text="🔄 Очистить" onAction="#handleClear" styleClass="button-outlined"/>
+                </HBox>
+                
+                <Region VBox.vgrow="ALWAYS"/>
+            </VBox>
+        </SplitPane>
+    </center>
+    
+    <bottom>
+        <HBox styleClass="status-bar" spacing="10">
+            <Label fx:id="statusLabel" text="Готово" HBox.hgrow="ALWAYS"/>
+            <Label fx:id="countLabel" text="Всего залов: 0"/>
+            <Separator orientation="VERTICAL"/>
+            <Button text="Закрыть" onAction="#handleClose" styleClass="button-outlined"/>
+        </HBox>
+    </bottom>
+</BorderPane>

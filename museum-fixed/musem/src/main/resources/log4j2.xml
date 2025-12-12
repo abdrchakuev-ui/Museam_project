@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN" packages="org.apache.logging.log4j.core">
+    <Appenders>
+        <!-- Консольный appender -->
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} [%t] %-5level %logger{36} - %msg%n" charset="UTF-8"/>
+        </Console>
+
+        <!-- Файловый appender -->
+        <File name="File" fileName="logs/museum-app.log" append="true">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} [%t] %-5level %logger{36} - %msg%n" charset="UTF-8"/>
+        </File>
+
+        <!-- Файловый appender для ошибок -->
+        <File name="ErrorFile" fileName="logs/museum-errors.log" append="true">
+            <ThresholdFilter level="ERROR" onMatch="ACCEPT" onMismatch="DENY"/>
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} [%t] %-5level %logger{36}%n%msg%n%throwable{full}%n" charset="UTF-8"/>
+        </File>
+    </Appenders>
+
+    <Loggers>
+        <!-- Логгеры для пакетов приложения -->
+        <Logger name="kz.enu.museum" level="debug" additivity="false">
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="File"/>
+            <AppenderRef ref="ErrorFile"/>
+        </Logger>
+
+        <!-- Логгер для репозиториев -->
+        <Logger name="kz.enu.museum.repository" level="info" additivity="false">
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="File"/>
+        </Logger>
+
+        <!-- Логгер для сервисов -->
+        <Logger name="kz.enu.museum.service" level="info" additivity="false">
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="File"/>
+        </Logger>
+
+        <!-- Root logger -->
+        <Root level="info">
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="File"/>
+            <AppenderRef ref="ErrorFile"/>
+        </Root>
+    </Loggers>
+</Configuration>

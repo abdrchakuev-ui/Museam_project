@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "name": "Живопись",
+    "description": "Картины и произведения живописи",
+    "categoryCode": "ПЛ",
+    "subcategories": [
+      {
+        "id": 11,
+        "name": "Маслом",
+        "description": "Картины маслом",
+        "categoryCode": "МЛ",
+        "subcategories": []
+      },
+      {
+        "id": 12,
+        "name": "Акварель",
+        "description": "Произведения акварелью",
+        "categoryCode": "АК",
+        "subcategories": []
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Скульптура",
+    "description": "Скульптурные произведения",
+    "categoryCode": "СК",
+    "subcategories": [
+      {
+        "id": 21,
+        "name": "Мрамор",
+        "description": "Скульптуры из мрамора",
+        "categoryCode": "МР",
+        "subcategories": []
+      },
+      {
+        "id": 22,
+        "name": "Бронза",
+        "description": "Бронзовые скульптуры",
+        "categoryCode": "БР",
+        "subcategories": []
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Артефакты",
+    "description": "Исторические артефакты и древности",
+    "categoryCode": "АР",
+    "subcategories": [
+      {
+        "id": 31,
+        "name": "Древний Египет",
+        "description": "Артефакты из древнего Египта",
+        "categoryCode": "ЕГ",
+        "subcategories": []
+      },
+      {
+        "id": 32,
+        "name": "Древний Рим",
+        "description": "Артефакты из древнего Рима",
+        "categoryCode": "РМ",
+        "subcategories": []
+      }
+    ]
+  }
+]

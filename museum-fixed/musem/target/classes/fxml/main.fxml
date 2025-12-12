@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="kz.enu.museum.controller.MainController"
+            prefHeight="800" prefWidth="1200"
+            stylesheets="@../css/styles.css">
+    
+    <!-- Меню -->
+    <top>
+        <VBox>
+            <MenuBar>
+                <Menu text="Файл">
+                    <MenuItem text="Импорт JSON" onAction="#handleImportJson"/>
+                    <MenuItem text="Экспорт JSON" onAction="#handleExportJson"/>
+                    <MenuItem text="Экспорт CSV" onAction="#handleExportCsv"/>
+                    <SeparatorMenuItem/>
+                    <MenuItem text="Выход" onAction="#handleExit"/>
+                </Menu>
+                <Menu text="Экспонаты">
+                    <MenuItem text="Добавить картину" onAction="#handleAddPainting"/>
+                    <MenuItem text="Добавить скульптуру" onAction="#handleAddSculpture"/>
+                    <MenuItem text="Добавить артефакт" onAction="#handleAddArtifact"/>
+                    <SeparatorMenuItem/>
+                    <MenuItem text="Редактировать" onAction="#handleEditExhibit"/>
+                    <MenuItem text="Удалить" onAction="#handleDeleteExhibit"/>
+                    <SeparatorMenuItem/>
+                    <MenuItem text="Изменить статус" onAction="#handleChangeStatus"/>
+                    <MenuItem text="Переместить в зал" onAction="#handleChangeLocation"/>
+                    <SeparatorMenuItem/>
+                    <MenuItem text="Обновить" onAction="#handleRefresh"/>
+                </Menu>
+                <Menu text="Справочники">
+                    <MenuItem text="Категории" onAction="#handleManageCategories"/>
+                    <MenuItem text="Художники" onAction="#handleManageArtists"/>
+                    <MenuItem text="Залы" onAction="#handleManageLocations"/>
+                </Menu>
+                <Menu text="Отчёты">
+                    <MenuItem text="Общая статистика" onAction="#handleStatistics"/>
+                    <MenuItem text="На реставрации" onAction="#handleRestorationReport"/>
+                    <MenuItem text="Экспонаты по залам" onAction="#handleLocationReport"/>
+                    <SeparatorMenuItem/>
+                    <MenuItem text="Экспорт PDF" onAction="#handleExportPdf"/>
+                </Menu>
+                <Menu text="Справка">
+                    <MenuItem text="О программе" onAction="#handleAbout"/>
+                </Menu>
+            </MenuBar>
+            
+            <!-- Панель инструментов -->
+            <ToolBar styleClass="tool-bar">
+                <Button fx:id="addButton" text="➕ Добавить" onAction="#handleAddExhibit" styleClass="button-success"/>
+                <Button fx:id="editButton" text="✏️ Редактировать" onAction="#handleEditExhibit"/>
+                <Button text="🖼️ Просмотр" onAction="#handleViewExhibit" styleClass="button-info"/>
+                <Button fx:id="deleteButton" text="🗑️ Удалить" onAction="#handleDeleteExhibit" styleClass="button-danger"/>
+                <Separator orientation="VERTICAL"/>
+                <Button fx:id="refreshButton" text="🔄 Обновить" onAction="#handleRefresh"/>
+                <Separator orientation="VERTICAL"/>
+                <Button text="📊 Статистика" onAction="#handleStatistics"/>
+            </ToolBar>
+            
+            <!-- Панель поиска -->
+            <HBox spacing="10" styleClass="search-panel">
+                <Label text="🔍 Поиск:" styleClass="label-subheader"/>
+                <TextField fx:id="searchTextField" promptText="Название, инвентарный номер, автор..." 
+                           HBox.hgrow="ALWAYS" styleClass="search-field"/>
+                
+                <Label text="Статус:"/>
+                <ComboBox fx:id="statusFilter" promptText="Все статусы" prefWidth="150"/>
+                
+                <Label text="Автор:"/>
+                <ComboBox fx:id="authorFilter" promptText="Все авторы" prefWidth="150"/>
+                
+                <Button fx:id="resetFilterButton" text="🔄 Сбросить" onAction="#handleResetFilters" styleClass="button-flat"/>
+            </HBox>
+        </VBox>
+    </top>
+    
+    <!-- Основное содержимое -->
+    <center>
+        <SplitPane dividerPositions="0.2" prefHeight="600">
+            <!-- Левая панель: дерево категорий -->
+            <VBox styleClass="sidebar">
+                <VBox styleClass="sidebar-header">
+                    <Label text="📚 Категории" styleClass="sidebar-header"/>
+                </VBox>
+                <TreeView fx:id="categoryTree" VBox.vgrow="ALWAYS" styleClass="sidebar"/>
+            </VBox>
+            
+            <!-- Правая панель: таблица экспонатов -->
+            <VBox spacing="10" style="-fx-padding: 20;">
+                <HBox alignment="CENTER_LEFT" spacing="10">
+                    <Label fx:id="tableTitle" text="Все экспонаты" styleClass="label-header"/>
+                    <Region HBox.hgrow="ALWAYS"/>
+                    <Label fx:id="countLabel" text="Всего: 0" styleClass="label-caption"/>
+                </HBox>
+                
+                <TableView fx:id="exhibitTable" VBox.vgrow="ALWAYS">
+                    <columnResizePolicy>
+                        <TableView fx:constant="CONSTRAINED_RESIZE_POLICY"/>
+                    </columnResizePolicy>
+                    <columns>
+                        <TableColumn fx:id="idColumn" text="ID" prefWidth="50" minWidth="50"/>
+                        <TableColumn fx:id="inventoryColumn" text="Инв. №" prefWidth="100"/>
+                        <TableColumn fx:id="nameColumn" text="Название" prefWidth="200"/>
+                        <TableColumn fx:id="typeColumn" text="Тип" prefWidth="100"/>
+                        <TableColumn fx:id="authorColumn" text="Автор" prefWidth="150"/>
+                        <TableColumn fx:id="categoryColumn" text="Категория" prefWidth="120"/>
+                        <TableColumn fx:id="statusColumn" text="Статус" prefWidth="120"/>
+                        <TableColumn fx:id="locationColumn" text="Зал" prefWidth="100"/>
+                        <TableColumn fx:id="yearColumn" text="Год" prefWidth="80"/>
+                    </columns>
+                </TableView>
+            </VBox>
+        </SplitPane>
+    </center>
+    
+    <!-- Нижняя панель: статус -->
+    <bottom>
+        <HBox styleClass="status-bar" spacing="20">
+            <Label fx:id="statusBar" text="Готово" HBox.hgrow="ALWAYS"/>
+            <Label fx:id="selectedCountLabel" text="Выбрано: 0"/>
+            <Separator orientation="VERTICAL"/>
+            <Label text="Museum Catalog v1.0" styleClass="label-caption"/>
+        </HBox>
+    </bottom>
+</BorderPane>
